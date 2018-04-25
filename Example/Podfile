@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LLPay_Example' do
+  pod 'LLPay', :path => '../'
+
+  target 'LLPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
