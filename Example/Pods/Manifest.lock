@@ -1,0 +1,16 @@
+PODS:
+  - LLPay (2.7.2)
+
+DEPENDENCIES:
+  - LLPay (from `../`)
+
+EXTERNAL SOURCES:
+  LLPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLPay: 04e8d1dc8d3bcdfbbf5b5ff02daa786ff96570ba
+
+PODFILE CHECKSUM: 90c36f56fe363b7b3cea54993ff52630e5e587cf
+
+COCOAPODS: 1.5.0
