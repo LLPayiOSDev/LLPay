@@ -1,5 +1,5 @@
 PODS:
-  - LLPay (2.7.2)
+  - LLPay (2.7.3)
 
 DEPENDENCIES:
   - LLPay (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLPay: 04e8d1dc8d3bcdfbbf5b5ff02daa786ff96570ba
+  LLPay: cc3cc8e9eb8e55afad23d5702a5dcdee0fcef03e
 
 PODFILE CHECKSUM: 90c36f56fe363b7b3cea54993ff52630e5e587cf
 

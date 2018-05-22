@@ -1,6 +1,11 @@
 CHANGELOG
 ===
 
+## [LLPay 2.7.3](https://github.com/LLPayiOSDev/LLPay/releases/tag/2.7.3) 
+Build 20180522
+
+- 加入新认证支付（全渠道）
+
 ## [LLPay 2.7.2](https://github.com/LLPayiOSDev/LLPay/releases/tag/2.7.2) 
 Build 20180425
 

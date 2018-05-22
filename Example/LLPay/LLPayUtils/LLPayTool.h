@@ -10,19 +10,18 @@
 
 @interface LLPayTool : NSObject
 
-
 /**
  时间戳
 
  @return 时间戳
  */
-+ (NSString *)timeStamp;
++ (NSString*)timeStamp;
 
 /**
  生成订单号
  
  @return 订单号
  */
-+ (NSString *)generateTradeNO;
++ (NSString*)generateTradeNO;
 
 @end

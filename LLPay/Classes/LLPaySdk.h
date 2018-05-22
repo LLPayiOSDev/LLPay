@@ -10,13 +10,13 @@
 #import <UIKit/UIKit.h>
 
 typedef enum LLPayResult {
-    kLLPayResultSuccess = 0,      // 支付成功
-    kLLPayResultFail = 1,         // 支付失败
-    kLLPayResultCancel = 2,       // 支付取消，用户行为
-    kLLPayResultInitError,        // 支付初始化错误，订单信息有误，签名失败等
-    kLLPayResultInitParamError,   // 支付订单参数有误，无法进行初始化，未传必要信息等
-    kLLPayResultUnknow,           // 其他
-    kLLPayResultRequestingCancel, // 授权支付后取消(支付请求已发送)
+    kLLPayResultSuccess = 0,        /**< 支付成功    */
+    kLLPayResultFail = 1,           /**< 支付失败    */
+    kLLPayResultCancel = 2,         /**< 支付取消，用户行为 */
+    kLLPayResultInitError,          /**< 支付初始化错误，订单信息有误，签名失败等 */
+    kLLPayResultInitParamError,     /**< 支付订单参数有误，无法进行初始化，未传必要信息等 */
+    kLLPayResultUnknow,             /**< 其他 */
+    kLLPayResultRequestingCancel,   /**< 授权支付后取消(支付请求已发送) */
 } LLPayResult;
 
 
@@ -35,13 +35,14 @@ typedef enum LLPayResult {
 @end
 
 typedef NS_ENUM(NSUInteger, LLPayType) {
-    LLPayTypeQuick,     // 快捷
-    LLPayTypeVerify,    // 认证
-    LLPayTypePreAuth,   // 预授权
-    LLPayTypeTravel,    // 游易付之随心付
-    LLPayTypeRealName,  // 实名快捷支付
-    LLPayTypeCar,       // 车易付
-    LLPayTypeInstalments,//分期付
+    LLPayTypeQuick,         /**< 快捷 */
+    LLPayTypeVerify,        /**< 认证 */
+    LLPayTypePreAuth,       /**< 预授权 */
+    LLPayTypeTravel,        /**< 游易付之随心付 */
+    LLPayTypeNewVerify,     /**< 新认证支付（全渠道） */
+    LLPayTypeCar,           /**< 车易付 */
+    LLPayTypeInstalments,   /**< 分期付 */
+    LLPayTypeFund,          /**< 基金支付 */
 };
 
 @interface LLPaySdk : NSObject
