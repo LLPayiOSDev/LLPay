@@ -1,6 +1,6 @@
 
 /* 样式表只是用来设置控件的属性，并不和标准css一致  */
-/* 连连的主题色是 00a0e9 ， 如果修改主题色可直接将 00a0e9 查找替换成商户自己的主题色 ，注意， 还有高亮颜色需要更换 */
+
 /* 基 础 样 式 表 */
 
 /* 背景色样式 */
@@ -13,7 +13,6 @@
 #TX-F{font-size:13px;}
 #TX-G{font-size:12px;}
 #TX-H{font-size:15px;}
-
 
 /* 首次支付头部视图 */
 #TX-NameGoods{font-size:15px;}/*商品名称文字样式*/
@@ -60,18 +59,22 @@ CusTitles {payTitle:连连支付;signTitle:绑卡;alertTitle:请输入验证码}
 
 LLColorButton{border-radius:0px;}
 
-#pay-button{normal-color:#00a0e9;hi-color:#017fc7;disable-color:214,214,214;border-radius:0}
+/*
+ #a-button{normal-color:#fa3807;hi-color:#b73737;disable-color:214,214,214}
+ #b-button{normal-color:#fe5000;hi-color:#6f8086;font-color:#ffffff;}
+ */
 #a-button{normal-color:#00a0e9;hi-color:#017fc7;disable-color:214,214,214}
 #b-button{normal-color:#00a0e9;hi-color:#017fc7;font-color:#ffffff;}
 #c-button{normal-color:#fe932f;hi-color:#cb7320;}
 #d-button{normal-color:#dcdcdc;hi-color:#a9a9a9;}
 #e-button{normal-color:#ffeec1;hi-color:#eeeeee;border-color:#ffd778;border-width:0.8px;font-color:#fe5000;}
 #f-button{normal-color:#ffffff;hi-color:#999999;border-color:#d9d9d9;border-width:0.8px;font-color:#666666;}
+#pay-button{normal-color:#00a0e9;hi-color:#017fc7;disable-color:214,214,214;border-radius:0}
 
 #half-button{width:128px;font-size:14px;}
 
 #sms-button-d{background-image:D短信验证码按钮.png;background-image-hi:D短信验证码按钮按压.png;background-image-disable:D短信验证码按钮不可点击.png;
-    width:99;height:44;}
+width:99;height:44;}
 
 #confirm-short-button {
     background-image:B弹框按钮.png;
@@ -106,3 +109,17 @@ basePage{}
 #label-tip{font-color:#999999;font-size:15px;height:44px;width:55px;}
 
 #support-tip{font-color:#666666;font-size:15px;align:center;width:300;height:44px;}
+
+/*
+#LLToast_pay{ll_goodds_info:购买%1$s元的%2$s}
+*/
+
+/*
+ 支付显示方式
+ 分别为快捷支付，认证支付，预授权，随心付，实名快捷,
+ */
+#LLPay-Style{style:quickPay} /*quickPay，verifyPay,preAuthorizePay,superPay,travelPay,realNamePay,carPay,instalmentsPay,fundPay*/
+
+
+/*去掉横屏支持*/
+/*#support-hori{support: false};*/
