@@ -1,6 +1,13 @@
 CHANGELOG
 ===
 
+## [LLPay 2.7.5](https://gitee.com/LLPayiOS/LLPay/tree/2.7.5/) 
+
+Build 2018103101
+- 弹窗高度调整（嗯， 上下黄金比例）
+- 界面更新
+
+
 ## [LLPay 2.7.3](https://github.com/LLPayiOSDev/LLPay/releases/tag/2.7.3) 
 Build 20180522
 
