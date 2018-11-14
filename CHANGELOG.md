@@ -7,8 +7,6 @@ Build 2018103101
 - 弹窗高度调整（嗯， 上下黄金比例）
 - 界面更新
 
-
-
 ## [LLPay 2.7.3](https://github.com/LLPayiOSDev/LLPay/releases/tag/2.7.3) 
 
 Build 20180522
