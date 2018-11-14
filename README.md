@@ -1,7 +1,6 @@
 # LLPay
 
 [![Version](https://img.shields.io/cocoapods/v/LLPay.svg?style=flat)](https://cocoapods.org/pods/LLPay)
-[![License](https://img.shields.io/cocoapods/l/LLPay.svg?style=flat)](https://cocoapods.org/pods/LLPay)
 [![Platform](https://img.shields.io/cocoapods/p/LLPay.svg?style=flat)](https://cocoapods.org/pods/LLPay)
 
 ## Example
@@ -72,4 +71,4 @@ LLPayiOSDev, iosdev@yintong.com.cn
 
 ## License
 
-LLPay is available under the MIT license. See the LICENSE file for more info.
+© 2003-2018 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
