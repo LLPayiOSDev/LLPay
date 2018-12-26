@@ -1,6 +1,9 @@
 CHANGELOG
 ===
 
+## [LLPay 2.7.6](https://gitee.com/LLPayiOS/LLPay/tree/2.7.6/)
+- 银行APP支付兼容网联渠道
+
 ## [LLPay 2.7.5](https://gitee.com/LLPayiOS/LLPay/tree/2.7.5/) 
 
 Build 2018103101

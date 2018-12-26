@@ -1,14 +1,12 @@
 # LLPay
 
 [![Version](https://img.shields.io/cocoapods/v/LLPay.svg?style=flat)](https://cocoapods.org/pods/LLPay)
+[![License](https://img.shields.io/cocoapods/l/LLPay.svg?style=flat)](https://cocoapods.org/pods/LLPay)
 [![Platform](https://img.shields.io/cocoapods/p/LLPay.svg?style=flat)](https://cocoapods.org/pods/LLPay)
 
-## Example
+> 银行APP支付SDK接入说明请点击[银行APP支付SDK接入指南](./LLPay/EBank)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-
-## Installation
+## 如何安装
 
 LLPay is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:

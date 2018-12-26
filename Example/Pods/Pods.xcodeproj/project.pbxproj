@@ -7,132 +7,314 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00E2C1092D2255BB25E45DF004D3E7E5 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 574647406EB5A9EFFEF39B162427A3F8 /* UIWebView+AFNetworking.m */; };
+		00ED59EE2784CE922358E57E241A6C75 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 901ECAB7AC9CA29F7B24050E103792DE /* UIRefreshControl+AFNetworking.m */; };
+		0D58399A6DC61099900309A4449F7891 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5EE43E80199C77F09DF734AC948DB1 /* AFURLSessionManager.m */; };
+		11EAB2A17E2712DB04831AD0FFD6A5DB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1257D2C9583AC4CF860CA06D2E11C446 /* AFURLResponseSerialization.m */; };
+		137A6E8841A2429C00CBFA701695197E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E633BCD34C81750D3584AB6C5B8D93AD /* AFNetworkReachabilityManager.m */; };
+		146B923ABED8ABBAE25A960876698AF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8CDFF3F2DAE2771438E0FDD071E4 /* Foundation.framework */; };
+		15304B6383EF69EC4E3DE45F8613BE2E /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBE4F55B4BBE25082C8B94F5FCF1967 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15F1AB626337FECD0B9CFAAD90FAC342 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C154403624C74C88EE5D6C398953A /* AFNetworkActivityIndicatorManager.m */; };
+		1A866A0D4196A40FAB1B513C6ECDBB64 /* Pods-LLPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9808FABE696A212F7CF20644EFB856EB /* Pods-LLPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E68973739E2AE713059A22F94238C60 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EC026151C53EB2037B35787772CA85AA /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328CCD10C2469209E1D2DD55268E154D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E2AB7BE5FD2DF68172982BA81BDFC /* SystemConfiguration.framework */; };
+		3CC1558D8899A2E13A968D4C403CD793 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B46F6EF148F3AE94B367731B4CA94DAB /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402EB64C59857FE252DC98844643C420 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B2535800906DC260B62DDFEE939BA2 /* UIButton+AFNetworking.m */; };
+		41FD4D0D6101210E26DDDCDD17FBB7C3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4872FC8332B1419485D46D974B6E79F1 /* UIImageView+AFNetworking.m */; };
+		562A9639149011746D9382F5ADFEAC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8CDFF3F2DAE2771438E0FDD071E4 /* Foundation.framework */; };
+		5A4C39ACCE4CE7B6C69C736F48087759 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5431BC13F9C768CE7AD2FF9F23328F7 /* AFHTTPSessionManager.m */; };
+		616166BD57B8707EC940068BF5E1AA0A /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = AB93636250187C7F8C2A695019A9526A /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63A7B518E880C7AACABCD20AFA247C8C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B874C9835E21CCB73D2512332CEC124C /* AFSecurityPolicy.m */; };
+		66340E06FB146280E83112B966E563C3 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6784273B7F552A740DCF36F1CB7127F7 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5E05D187005E863177B45D58905C71 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F3413BA6C3A939777B6B672A4D52B4E8 /* AFImageDownloader.m */; };
+		6B6028FC5ADDFE31683A722490A64077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8CDFF3F2DAE2771438E0FDD071E4 /* Foundation.framework */; };
+		6C7C6C542448137FC3B6CEA04386780C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BB8F93D526D0B6D2B51D2891124D18 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7541F38B88A5C9610A0B81168A76E636 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B121FBDF90B4AE814247E24369897C4B /* QuartzCore.framework */; };
+		756307A0D283B24749C01AC43B1BB1C5 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A946DDD60ED6C061CB4B2A6894855DB /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78F5D40D5B8E9FC40FB257953EA945BA /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DB1E4962B0FA47C814F2F5DFEC357F /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E70B4F1632038DEA1C0DCA349DB1BDB /* Pods-LLPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FFDC801B6EA754BDBA1ADB0680B48C /* Pods-LLPay_Tests-dummy.m */; };
-		9F64146358A58EF1DCFEE673C33F9C4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		AD76EAEF827CA6718CC23C4FC492CB0C /* Pods-LLPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38F1E43A02FD1F4F32FE2C44CF0D1AA /* Pods-LLPay_Example-dummy.m */; };
-		B4FE6755CE4083DCA79FA201659AFE9A /* Pods-LLPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9808FABE696A212F7CF20644EFB856EB /* Pods-LLPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E067DED365491A9D74BDC9885E279D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		839FA294A4A7A2C23B0149D5F947BAB3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A366F281B5F33D24E1EE3E6BD960A0D /* Security.framework */; };
+		8826A0887EEE1A618FA3BA34989E05B5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1C1936D828141294C9C32187071654 /* AFNetworking-dummy.m */; };
+		88A52F2DE87FAAEF79B420CC9B6BDE80 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 093197DB2C8E08DCA8F0E55A809C4F00 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD9F8FE36978CB4348E402207950883 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A669DACBBABFEE5CE930A0A88313F5 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901790CB7729E8871AE5DE99E486792B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A77A1DF2D6CA4BBC83DA6A515AAF4C5 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9486D80CC092F8ACB2355D5C94A155E3 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F660A56FAFAA61D6C5FFD349423ACF8F /* AFAutoPurgingImageCache.m */; };
+		9D380619079479C622272E2C77FCD289 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FC202EEE40770AC61F21EF025C78D81C /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A3A05100B4AA38A919038E28E7092E /* Pods-LLPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38F1E43A02FD1F4F32FE2C44CF0D1AA /* Pods-LLPay_Example-dummy.m */; };
+		A39E1924915C53C49E7220F72AD96BBB /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC293F781191F2F8FC890ED05674B9D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C2FEED811A334A5B5256680847F9E9 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC39523B7EC7FBD6082662DBB88B9E6 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA24F65AF676F6428D3F2B0D3A03B816 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88758BBAFCEF376E32EA1DB25DA7405D /* CoreGraphics.framework */; };
+		B3308EE91292A3A9A794821E4C744155 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = D5BAF1011ADB9D7DD3F2737FCF2178C2 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE7FD5C1C06AF3670E0FB75F996DDF7 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 926456B93F385D58BE494116B1ACF365 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D816A742203B5D50B79348DFDDE4BD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1405FBC3E07F9B76B5EB5D0B64942E /* MobileCoreServices.framework */; };
+		CB3028664CA23A1480C18C7A86CFDAF4 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8978DA7DCF408E2673DD174FEE3A3E /* UIActivityIndicatorView+AFNetworking.m */; };
+		CB3CA20E3732A095F5515E0621D8719C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 773264D3E0355E343AF4413E1D0052A1 /* AFURLRequestSerialization.m */; };
+		CB633AF10D27AD0971F3E34470B0BB01 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F832FCAB6EC05F37C64796610603E70B /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D014A5430789C5F0FFCF490D53B22897 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 154DE4D597D428888391E17D6663D5A0 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D491FD44351A11016A957CA81ABE0EC5 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC25127964DCA2EC008FD4D95E1C60B /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D75F3A089AB1F05D73875FFE27CC19EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8CDFF3F2DAE2771438E0FDD071E4 /* Foundation.framework */; };
+		DF74915F8F367134FA4277BE9A2F52DB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 356CDA12C8176A91521F3B2FB20BEC6D /* UIProgressView+AFNetworking.m */; };
+		EAAA8F31501A27DEEEEF88D9FAF2C2F9 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDDF1F4EC3DB5DF851AB69607B89C50 /* Toast-dummy.m */; };
 		EB796BB3EE377C1A88C49A0EF25A4BAF /* Pods-LLPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C83E02F8EC20C08FD9B4EEFA4E8688E0 /* Pods-LLPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D2FE3B9DB1610D8EFAB393A3412DB7 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 75909DDE3F4A48608A3AA51CCA713E1F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB209DFAFF4721A4AA51197AB2D7016 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B861DA67121548626C6C0D9A77DD5E /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD8DA71D0CB37B8C24E131A19BA856E /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EEEB91CC2E664921ECC2E67F6BAFDA /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE66EF8D47514D23E7551E2C95C765D8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FDC62B4E5A86AF02EFBCA30C293F95 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF12B4BE37652AC565ED618C106CFE10 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8426A5935C69EE3724D4A341B8DDB4 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1D41732E1E73E7B7A4F7C00C397583B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAE60BD2ADA8DCB217E116ADB628185C;
+			remoteInfo = AFNetworking;
+		};
 		2ACA46978554C3EA8E20B5D86F1C1B49 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 25BBD98A1F8DD5E1F6F65CFAF1B91B64;
+			remoteGlobalIDString = 917616026D88C719CB51DC253CECE6BE;
 			remoteInfo = "Pods-LLPay_Example";
+		};
+		88EEE0E10A19CFE927968A2137410099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC195C9DC06516AA51A7D0E0B0268F8F;
+			remoteInfo = Toast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022F49946F0D8117FC8165609699331F /* Pods_LLPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLPay_Tests.framework; path = "Pods-LLPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06846E81711A43307AE4F46039589370 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07E92577E4524A45EE3A9EC9D98CF4CA /* LLPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LLPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		090807E283B120842B35790C600E037F /* Pods-LLPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		093197DB2C8E08DCA8F0E55A809C4F00 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		09FFDC801B6EA754BDBA1ADB0680B48C /* Pods-LLPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLPay_Tests-dummy.m"; sourceTree = "<group>"; };
-		144BA1163BD8A83364A80F24C54A21EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E184BE7228A9DAB55009319D3CA9C43 /* LLPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPay.h; path = LLPay/Core/LLPay.h; sourceTree = "<group>"; };
+		1257D2C9583AC4CF860CA06D2E11C446 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		154DE4D597D428888391E17D6663D5A0 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		1A77A1DF2D6CA4BBC83DA6A515AAF4C5 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		1C80426F3947555C39115729CC4A2E0E /* Pods-LLPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLPay_Tests.modulemap"; sourceTree = "<group>"; };
+		1DC293F781191F2F8FC890ED05674B9D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		1EBE4F55B4BBE25082C8B94F5FCF1967 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		20D03A3125A8188DAA5D8EDCD4A3A5A7 /* Pods-LLPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2352769F6FB62F3A426AD736C98B5C10 /* LLPaySdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = LLPay/Classes/LLPaySdk.h; sourceTree = "<group>"; };
 		29668DD4493DAF1DCA2C3D7377034D17 /* Pods-LLPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F5589801073B9AA69CD4DAC3583DB05 /* libLLEBankPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLEBankPaySDK.a; path = LLPay/EBank/libLLEBankPaySDK.a; sourceTree = "<group>"; };
 		332CF468CBD840771C77B5143AF86BC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34BC24FD5671F5F903EE62BE3345FFD7 /* Pods-LLPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3744EA58BD7078CF4AE8F19C6855B0D9 /* libLLPStdSDKCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPStdSDKCore.a; path = LLPay/libLLPStdSDKCore.a; sourceTree = "<group>"; };
+		356CDA12C8176A91521F3B2FB20BEC6D /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		3C7B908A48A9A61ABDF30B43093FFBFE /* Pods-LLPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F3C3B61D65EB67EF452190AA88625F4 /* LLEBankPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLEBankPaySDK.h; path = LLPay/EBank/LLEBankPaySDK.h; sourceTree = "<group>"; };
+		4872FC8332B1419485D46D974B6E79F1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		4A8251EA7B32D828FB5FB611ED96EAC6 /* walletResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = walletResources.bundle; path = LLPay/walletResources.bundle; sourceTree = "<group>"; };
+		4D5E2AB7BE5FD2DF68172982BA81BDFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		574647406EB5A9EFFEF39B162427A3F8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		5B2ADA2625195519589EE6630EF8DC32 /* Pods-LLPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLPay_Example-resources.sh"; sourceTree = "<group>"; };
+		5EB67F28CDD00FD63EFC495D51E69219 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		624A5EF49E1FAC10F7B6439C6E349477 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		625C2C2207FD2C5C3830F3564C218762 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63ED0726B1772113A4F3E0F02D97152A /* LLPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LLPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6429552C3F068D39A28470A71C687773 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B5667C9A054DC6FE00D9A2385E8FAE /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		6784273B7F552A740DCF36F1CB7127F7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		68A9360109EC5170E057596B39FFBFBF /* Pods-LLPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6B2104D2A89B0A9C6A0101C287969229 /* Pods_LLPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLPay_Example.framework; path = "Pods-LLPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A946DDD60ED6C061CB4B2A6894855DB /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		6C5EE43E80199C77F09DF734AC948DB1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		6C96CAFE9180B4C356DAB50626A4AF26 /* Pods-LLPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6CDDF1F4EC3DB5DF851AB69607B89C50 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		6D178ABC4CEB160F229D43765DD52646 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D97F612CD72A874A2DDE74ADFC9A34A /* Pods-LLPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F5F6EF87678257C608455C28CFDD3C8 /* Pods-LLPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLPay_Tests-resources.sh"; sourceTree = "<group>"; };
+		75909DDE3F4A48608A3AA51CCA713E1F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		773264D3E0355E343AF4413E1D0052A1 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		7A52B3B01F5311ADE182956E3A9AF07B /* Pods-LLPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F1405FBC3E07F9B76B5EB5D0B64942E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		80A669DACBBABFEE5CE930A0A88313F5 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		847016558BC2E09D865B6C684391B570 /* LLPaySdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = LLPay/Pay/LLPaySdk.h; sourceTree = "<group>"; };
 		848289A25D328A7F14F039085B7EE89C /* Pods-LLPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85EEEB91CC2E664921ECC2E67F6BAFDA /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		88758BBAFCEF376E32EA1DB25DA7405D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8A366F281B5F33D24E1EE3E6BD960A0D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8EC25127964DCA2EC008FD4D95E1C60B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		901ECAB7AC9CA29F7B24050E103792DE /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		926456B93F385D58BE494116B1ACF365 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93F2CDADF4D8BD76F3B65A2D784BB645 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		96B861DA67121548626C6C0D9A77DD5E /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		9808FABE696A212F7CF20644EFB856EB /* Pods-LLPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLPay_Example-umbrella.h"; sourceTree = "<group>"; };
-		9DCAFFAE4D6E9268786C1571BF646408 /* walletResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = walletResources.bundle; path = LLPay/Assets/walletResources.bundle; sourceTree = "<group>"; };
+		9B1311B1E0558FC7CAF4C6C9F29B3C21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9C5FD5ED39030E8FA7E34EAD75873785 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		9D9CC8BBA6E7C3872CB76B026F9DDAB0 /* libLLPStdSDKCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPStdSDKCore.a; path = LLPay/Core/libLLPStdSDKCore.a; sourceTree = "<group>"; };
+		9E9C154403624C74C88EE5D6C398953A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A5431BC13F9C768CE7AD2FF9F23328F7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A64D2D96AAC5F869587BA1B313E80227 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		A7C2EA73A0EC3AE908F5F585D866B2B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB8426A5935C69EE3724D4A341B8DDB4 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		AB93636250187C7F8C2A695019A9526A /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		B121FBDF90B4AE814247E24369897C4B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B1C2E065191321808B08AC9F70D70E4F /* Pods_LLPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLPay_Example.framework; path = "Pods-LLPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FDC62B4E5A86AF02EFBCA30C293F95 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		B46F6EF148F3AE94B367731B4CA94DAB /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		B874C9835E21CCB73D2512332CEC124C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		BC7ED28971B84EAAB55C89B3C96C1421 /* Pods-LLPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLPay_Example.modulemap"; sourceTree = "<group>"; };
+		C2A5D778BBDB9FA4AB27849C05BF0318 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		C66E7B0153FC1151B15CFA9FE1B4C8E0 /* Pods_LLPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLPay_Tests.framework; path = "Pods-LLPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83E02F8EC20C08FD9B4EEFA4E8688E0 /* Pods-LLPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLPay_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CD7F4525B4746EC60320DB9CAA5A4C32 /* libLLPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPaySDK.a; path = LLPay/libLLPaySDK.a; sourceTree = "<group>"; };
+		CC565353EEFC55EFE3B2BC9ACA11B313 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC39523B7EC7FBD6082662DBB88B9E6 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		D3B2535800906DC260B62DDFEE939BA2 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		D5BAF1011ADB9D7DD3F2737FCF2178C2 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		D9BB8F93D526D0B6D2B51D2891124D18 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DBFFAE7BA3E08C767A9580A64D8A79D8 /* libLLPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPaySDK.a; path = LLPay/Pay/libLLPaySDK.a; sourceTree = "<group>"; };
+		E633BCD34C81750D3584AB6C5B8D93AD /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E6DB1E4962B0FA47C814F2F5DFEC357F /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		EC026151C53EB2037B35787772CA85AA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EC1C1936D828141294C9C32187071654 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		ED8A8CDFF3F2DAE2771438E0FDD071E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3413BA6C3A939777B6B672A4D52B4E8 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		F38F1E43A02FD1F4F32FE2C44CF0D1AA /* Pods-LLPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLPay_Example-dummy.m"; sourceTree = "<group>"; };
+		F660A56FAFAA61D6C5FFD349423ACF8F /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		F832FCAB6EC05F37C64796610603E70B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FC202EEE40770AC61F21EF025C78D81C /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		FF8978DA7DCF408E2673DD174FEE3A3E /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		201C4131525D709A2C0FE414167327DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA24F65AF676F6428D3F2B0D3A03B816 /* CoreGraphics.framework in Frameworks */,
+				146B923ABED8ABBAE25A960876698AF7 /* Foundation.framework in Frameworks */,
+				C8D816A742203B5D50B79348DFDDE4BD /* MobileCoreServices.framework in Frameworks */,
+				839FA294A4A7A2C23B0149D5F947BAB3 /* Security.framework in Frameworks */,
+				328CCD10C2469209E1D2DD55268E154D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D0B470CF7513330787E1BAEE2937084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6028FC5ADDFE31683A722490A64077 /* Foundation.framework in Frameworks */,
+				7541F38B88A5C9610A0B81168A76E636 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D71FD65EB7F43FDED696AD865DAD4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75F3A089AB1F05D73875FFE27CC19EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6BBB4A348434EC4750C90BBF18D78F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F64146358A58EF1DCFEE673C33F9C4A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A762190D8583A130693C82D030BF492C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E067DED365491A9D74BDC9885E279D57 /* Foundation.framework in Frameworks */,
+				562A9639149011746D9382F5ADFEAC14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31B9351D6898E7B21BDE2C66B93FCFE2 /* Frameworks */ = {
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD7F4525B4746EC60320DB9CAA5A4C32 /* libLLPaySDK.a */,
-				3744EA58BD7078CF4AE8F19C6855B0D9 /* libLLPStdSDKCore.a */,
+				6C251859F5DF8A3C987488B55CFB2432 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		33830893B44402E6B1086DACE7FD5EF8 /* LLPay */ = {
+		1A0D0BE63648CB2506DC3D1DFCDADDAC /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				2352769F6FB62F3A426AD736C98B5C10 /* LLPaySdk.h */,
-				31B9351D6898E7B21BDE2C66B93FCFE2 /* Frameworks */,
-				5A7AF7C0B89441EAA2900FA30F987F1A /* Pod */,
-				D779203837805E71406B9B8CF6753D14 /* Resources */,
+				1A77A1DF2D6CA4BBC83DA6A515AAF4C5 /* AFSecurityPolicy.h */,
+				B874C9835E21CCB73D2512332CEC124C /* AFSecurityPolicy.m */,
 			);
-			name = LLPay;
-			path = ../..;
+			name = Security;
+			sourceTree = "<group>";
+		};
+		260A35A1DA320114FD64806C52A3A159 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3638A978A31C70D02122B4B85544BE09 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33830893B44402E6B1086DACE7FD5EF8 /* LLPay */,
+				AB7604AB02B6F620620E0953B79A63E3 /* LLPay */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		57113B65D251114C41DDC57ACEFE5A08 /* Products */ = {
+		3EACDCE1935350F359254635C2BFE403 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6B2104D2A89B0A9C6A0101C287969229 /* Pods_LLPay_Example.framework */,
-				022F49946F0D8117FC8165609699331F /* Pods_LLPay_Tests.framework */,
+				DBFFAE7BA3E08C767A9580A64D8A79D8 /* libLLPaySDK.a */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5A7AF7C0B89441EAA2900FA30F987F1A /* Pod */ = {
+		407A2260BD0FEF5645F84ABCDE3644B7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				06846E81711A43307AE4F46039589370 /* LICENSE */,
-				63ED0726B1772113A4F3E0F02D97152A /* LLPay.podspec */,
-				144BA1163BD8A83364A80F24C54A21EC /* README.md */,
+				A7C2EA73A0EC3AE908F5F585D866B2B3 /* LICENSE */,
+				07E92577E4524A45EE3A9EC9D98CF4CA /* LLPay.podspec */,
+				9B1311B1E0558FC7CAF4C6C9F29B3C21 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		52E2BF08C4A3DA2474F2F9E0CDD1E8D3 /* EBank */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				3F3C3B61D65EB67EF452190AA88625F4 /* LLEBankPaySDK.h */,
+				5F6FD3592A59B549B04BA744EFF794E2 /* Frameworks */,
+				53145CA97686D1345E72951E905B7FD7 /* Resources */,
 			);
-			name = iOS;
+			name = EBank;
+			sourceTree = "<group>";
+		};
+		53145CA97686D1345E72951E905B7FD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A8251EA7B32D828FB5FB611ED96EAC6 /* walletResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5DF59601303FD2322ECD955C5988E47C /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				B46F6EF148F3AE94B367731B4CA94DAB /* AFCompatibilityMacros.h */,
+				D9BB8F93D526D0B6D2B51D2891124D18 /* AFHTTPSessionManager.h */,
+				A5431BC13F9C768CE7AD2FF9F23328F7 /* AFHTTPSessionManager.m */,
+				B2FDC62B4E5A86AF02EFBCA30C293F95 /* AFURLSessionManager.h */,
+				6C5EE43E80199C77F09DF734AC948DB1 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		5F6FD3592A59B549B04BA744EFF794E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5589801073B9AA69CD4DAC3583DB05 /* libLLEBankPaySDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6223EB8A001456536F3ED831A4161B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D9CC8BBA6E7C3872CB76B026F9DDAB0 /* libLLPStdSDKCore.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6A2423A7314B122E2BC20B39B8841376 /* Pods-LLPay_Tests */ = {
@@ -153,6 +335,19 @@
 			path = "Target Support Files/Pods-LLPay_Tests";
 			sourceTree = "<group>";
 		};
+		6C251859F5DF8A3C987488B55CFB2432 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				88758BBAFCEF376E32EA1DB25DA7405D /* CoreGraphics.framework */,
+				ED8A8CDFF3F2DAE2771438E0FDD071E4 /* Foundation.framework */,
+				7F1405FBC3E07F9B76B5EB5D0B64942E /* MobileCoreServices.framework */,
+				B121FBDF90B4AE814247E24369897C4B /* QuartzCore.framework */,
+				8A366F281B5F33D24E1EE3E6BD960A0D /* Security.framework */,
+				4D5E2AB7BE5FD2DF68172982BA81BDFC /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		6C6B5D24F70123B290404D1FBD31C5E5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,31 +357,169 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		76B57E8A1984C683EA0930E416BBF90E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6429552C3F068D39A28470A71C687773 /* AFNetworking.framework */,
+				B1C2E065191321808B08AC9F70D70E4F /* Pods_LLPay_Example.framework */,
+				C66E7B0153FC1151B15CFA9FE1B4C8E0 /* Pods_LLPay_Tests.framework */,
+				624A5EF49E1FAC10F7B6439C6E349477 /* Toast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8922C6C261B31DBD6EBB9E6907B7D3 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				847016558BC2E09D865B6C684391B570 /* LLPaySdk.h */,
+				3EACDCE1935350F359254635C2BFE403 /* Frameworks */,
+				260A35A1DA320114FD64806C52A3A159 /* Resources */,
+			);
+			name = Pay;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3638A978A31C70D02122B4B85544BE09 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				57113B65D251114C41DDC57ACEFE5A08 /* Products */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				C77FB24C6CBC0350CCEF8C03AF898A7A /* Pods */,
+				76B57E8A1984C683EA0930E416BBF90E /* Products */,
 				6C6B5D24F70123B290404D1FBD31C5E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		915C4864FFD42A62BE9BB518D4E78574 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				8EC25127964DCA2EC008FD4D95E1C60B /* AFURLRequestSerialization.h */,
+				773264D3E0355E343AF4413E1D0052A1 /* AFURLRequestSerialization.m */,
+				EC026151C53EB2037B35787772CA85AA /* AFURLResponseSerialization.h */,
+				1257D2C9583AC4CF860CA06D2E11C446 /* AFURLResponseSerialization.m */,
 			);
-			name = Frameworks;
+			name = Serialization;
 			sourceTree = "<group>";
 		};
-		D779203837805E71406B9B8CF6753D14 /* Resources */ = {
+		AB7604AB02B6F620620E0953B79A63E3 /* LLPay */ = {
 			isa = PBXGroup;
 			children = (
-				9DCAFFAE4D6E9268786C1571BF646408 /* walletResources.bundle */,
+				BEFCDF182C8CC44A748FBA1B71B3829D /* Core */,
+				52E2BF08C4A3DA2474F2F9E0CDD1E8D3 /* EBank */,
+				7D8922C6C261B31DBD6EBB9E6907B7D3 /* Pay */,
+				407A2260BD0FEF5645F84ABCDE3644B7 /* Pod */,
 			);
-			name = Resources;
+			name = LLPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B28DC7B8BCE38BA13FE5F303FF9489BD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6784273B7F552A740DCF36F1CB7127F7 /* AFNetworkReachabilityManager.h */,
+				E633BCD34C81750D3584AB6C5B8D93AD /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		B50B5ED62FACC0337F55AD8977E0DA8B /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				D5BAF1011ADB9D7DD3F2737FCF2178C2 /* Toast.h */,
+				CEC39523B7EC7FBD6082662DBB88B9E6 /* UIView+Toast.h */,
+				6A946DDD60ED6C061CB4B2A6894855DB /* UIView+Toast.m */,
+				C293B910AFFBBAE92D6E9BEA949CB45C /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		BBEF4A007EC5CE0C3172EE7D0099BD96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64D2D96AAC5F869587BA1B313E80227 /* AFNetworking.modulemap */,
+				5EB67F28CDD00FD63EFC495D51E69219 /* AFNetworking.xcconfig */,
+				EC1C1936D828141294C9C32187071654 /* AFNetworking-dummy.m */,
+				C2A5D778BBDB9FA4AB27849C05BF0318 /* AFNetworking-prefix.pch */,
+				093197DB2C8E08DCA8F0E55A809C4F00 /* AFNetworking-umbrella.h */,
+				CC565353EEFC55EFE3B2BC9ACA11B313 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		BEFCDF182C8CC44A748FBA1B71B3829D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0E184BE7228A9DAB55009319D3CA9C43 /* LLPay.h */,
+				6223EB8A001456536F3ED831A4161B21 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C293B910AFFBBAE92D6E9BEA949CB45C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D178ABC4CEB160F229D43765DD52646 /* Info.plist */,
+				9C5FD5ED39030E8FA7E34EAD75873785 /* Toast.modulemap */,
+				64B5667C9A054DC6FE00D9A2385E8FAE /* Toast.xcconfig */,
+				6CDDF1F4EC3DB5DF851AB69607B89C50 /* Toast-dummy.m */,
+				93F2CDADF4D8BD76F3B65A2D784BB645 /* Toast-prefix.pch */,
+				85EEEB91CC2E664921ECC2E67F6BAFDA /* Toast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		C77FB24C6CBC0350CCEF8C03AF898A7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFE34095C9F325832F3CC6659DF14D82 /* AFNetworking */,
+				B50B5ED62FACC0337F55AD8977E0DA8B /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB4ED7D80C757CD05EF32DDEE3561A1D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				80A669DACBBABFEE5CE930A0A88313F5 /* AFAutoPurgingImageCache.h */,
+				F660A56FAFAA61D6C5FFD349423ACF8F /* AFAutoPurgingImageCache.m */,
+				AB93636250187C7F8C2A695019A9526A /* AFImageDownloader.h */,
+				F3413BA6C3A939777B6B672A4D52B4E8 /* AFImageDownloader.m */,
+				AB8426A5935C69EE3724D4A341B8DDB4 /* AFNetworkActivityIndicatorManager.h */,
+				9E9C154403624C74C88EE5D6C398953A /* AFNetworkActivityIndicatorManager.m */,
+				154DE4D597D428888391E17D6663D5A0 /* UIActivityIndicatorView+AFNetworking.h */,
+				FF8978DA7DCF408E2673DD174FEE3A3E /* UIActivityIndicatorView+AFNetworking.m */,
+				926456B93F385D58BE494116B1ACF365 /* UIButton+AFNetworking.h */,
+				D3B2535800906DC260B62DDFEE939BA2 /* UIButton+AFNetworking.m */,
+				E6DB1E4962B0FA47C814F2F5DFEC357F /* UIImage+AFNetworking.h */,
+				75909DDE3F4A48608A3AA51CCA713E1F /* UIImageView+AFNetworking.h */,
+				4872FC8332B1419485D46D974B6E79F1 /* UIImageView+AFNetworking.m */,
+				1DC293F781191F2F8FC890ED05674B9D /* UIKit+AFNetworking.h */,
+				96B861DA67121548626C6C0D9A77DD5E /* UIProgressView+AFNetworking.h */,
+				356CDA12C8176A91521F3B2FB20BEC6D /* UIProgressView+AFNetworking.m */,
+				1EBE4F55B4BBE25082C8B94F5FCF1967 /* UIRefreshControl+AFNetworking.h */,
+				901ECAB7AC9CA29F7B24050E103792DE /* UIRefreshControl+AFNetworking.m */,
+				F832FCAB6EC05F37C64796610603E70B /* UIWebView+AFNetworking.h */,
+				574647406EB5A9EFFEF39B162427A3F8 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		CFE34095C9F325832F3CC6659DF14D82 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FC202EEE40770AC61F21EF025C78D81C /* AFNetworking.h */,
+				5DF59601303FD2322ECD955C5988E47C /* NSURLSession */,
+				B28DC7B8BCE38BA13FE5F303FF9489BD /* Reachability */,
+				1A0D0BE63648CB2506DC3D1DFCDADDAC /* Security */,
+				915C4864FFD42A62BE9BB518D4E78574 /* Serialization */,
+				BBEF4A007EC5CE0C3172EE7D0099BD96 /* Support Files */,
+				CB4ED7D80C757CD05EF32DDEE3561A1D /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		F502A7F7A080740A5637D23AF1F7802B /* Pods-LLPay_Example */ = {
@@ -210,11 +543,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29198A0B0D3C2D866C312FC1656109D4 /* Headers */ = {
+		3ACB71B8E8712180B0862C7FFAEDBB8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4FE6755CE4083DCA79FA201659AFE9A /* Pods-LLPay_Example-umbrella.h in Headers */,
+				FDD8DA71D0CB37B8C24E131A19BA856E /* Toast-umbrella.h in Headers */,
+				B3308EE91292A3A9A794821E4C744155 /* Toast.h in Headers */,
+				A8C2FEED811A334A5B5256680847F9E9 /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6429F7F80AD28C34AC9D67F5CB00DE9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A866A0D4196A40FAB1B513C6ECDBB64 /* Pods-LLPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E140C985F3196798D57F2A7DB76ECD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD9F8FE36978CB4348E402207950883 /* AFAutoPurgingImageCache.h in Headers */,
+				3CC1558D8899A2E13A968D4C403CD793 /* AFCompatibilityMacros.h in Headers */,
+				6C7C6C542448137FC3B6CEA04386780C /* AFHTTPSessionManager.h in Headers */,
+				616166BD57B8707EC940068BF5E1AA0A /* AFImageDownloader.h in Headers */,
+				FF12B4BE37652AC565ED618C106CFE10 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				88A52F2DE87FAAEF79B420CC9B6BDE80 /* AFNetworking-umbrella.h in Headers */,
+				9D380619079479C622272E2C77FCD289 /* AFNetworking.h in Headers */,
+				66340E06FB146280E83112B966E563C3 /* AFNetworkReachabilityManager.h in Headers */,
+				901790CB7729E8871AE5DE99E486792B /* AFSecurityPolicy.h in Headers */,
+				D491FD44351A11016A957CA81ABE0EC5 /* AFURLRequestSerialization.h in Headers */,
+				2E68973739E2AE713059A22F94238C60 /* AFURLResponseSerialization.h in Headers */,
+				FE66EF8D47514D23E7551E2C95C765D8 /* AFURLSessionManager.h in Headers */,
+				D014A5430789C5F0FFCF490D53B22897 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				BEE7FD5C1C06AF3670E0FB75F996DDF7 /* UIButton+AFNetworking.h in Headers */,
+				78F5D40D5B8E9FC40FB257953EA945BA /* UIImage+AFNetworking.h in Headers */,
+				F2D2FE3B9DB1610D8EFAB393A3412DB7 /* UIImageView+AFNetworking.h in Headers */,
+				A39E1924915C53C49E7220F72AD96BBB /* UIKit+AFNetworking.h in Headers */,
+				FCB209DFAFF4721A4AA51197AB2D7016 /* UIProgressView+AFNetworking.h in Headers */,
+				15304B6383EF69EC4E3DE45F8613BE2E /* UIRefreshControl+AFNetworking.h in Headers */,
+				CB633AF10D27AD0971F3E34470B0BB01 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,22 +599,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		25BBD98A1F8DD5E1F6F65CFAF1B91B64 /* Pods-LLPay_Example */ = {
+		917616026D88C719CB51DC253CECE6BE /* Pods-LLPay_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A27CE9B47DA4D08F8CF5EE44059807D8 /* Build configuration list for PBXNativeTarget "Pods-LLPay_Example" */;
+			buildConfigurationList = 48F4B6926367C0A80035B4318EB4A264 /* Build configuration list for PBXNativeTarget "Pods-LLPay_Example" */;
 			buildPhases = (
-				29198A0B0D3C2D866C312FC1656109D4 /* Headers */,
-				A0DA1AF3DEF6E7393FE042CF7071064A /* Sources */,
-				A762190D8583A130693C82D030BF492C /* Frameworks */,
-				BA246F9079880D78E741F8FD8EF6A506 /* Resources */,
+				6429F7F80AD28C34AC9D67F5CB00DE9B /* Headers */,
+				7A657ACFCA1A59677AC496B1B1E433E0 /* Sources */,
+				9D71FD65EB7F43FDED696AD865DAD4F4 /* Frameworks */,
+				C53D8C5BD446315A6ED3652F770ACDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67ED48064742591497BCD3C98DFEA617 /* PBXTargetDependency */,
+				8E7A4426CB7450A614C7166EEF993179 /* PBXTargetDependency */,
+			);
+			name = "Pods-LLPay_Example";
+			productName = "Pods-LLPay_Example";
+			productReference = B1C2E065191321808B08AC9F70D70E4F /* Pods_LLPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAE60BD2ADA8DCB217E116ADB628185C /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8289B039CF0D8B5A385C13089893A356 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				B5E140C985F3196798D57F2A7DB76ECD /* Headers */,
+				07C7A3674C96B85AD8EA6C6D71BC549B /* Sources */,
+				201C4131525D709A2C0FE414167327DC /* Frameworks */,
+				8F134AE083847A523C4AE149B84307BF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-LLPay_Example";
-			productName = "Pods-LLPay_Example";
-			productReference = 6B2104D2A89B0A9C6A0101C287969229 /* Pods_LLPay_Example.framework */;
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 6429552C3F068D39A28470A71C687773 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F127E05ED08CEA961626504DF2D6EB1D /* Pods-LLPay_Tests */ = {
@@ -263,7 +653,25 @@
 			);
 			name = "Pods-LLPay_Tests";
 			productName = "Pods-LLPay_Tests";
-			productReference = 022F49946F0D8117FC8165609699331F /* Pods_LLPay_Tests.framework */;
+			productReference = C66E7B0153FC1151B15CFA9FE1B4C8E0 /* Pods_LLPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC195C9DC06516AA51A7D0E0B0268F8F /* Toast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2665415B73EC6456649886E4BF13C41F /* Build configuration list for PBXNativeTarget "Toast" */;
+			buildPhases = (
+				3ACB71B8E8712180B0862C7FFAEDBB8E /* Headers */,
+				5F3E609386C47EC5E59874BEAA512C8F /* Sources */,
+				3D0B470CF7513330787E1BAEE2937084 /* Frameworks */,
+				2A93BD7B9A176D0163E5D2AE08E8D598 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = 624A5EF49E1FAC10F7B6439C6E349477 /* Toast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -283,18 +691,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 57113B65D251114C41DDC57ACEFE5A08 /* Products */;
+			productRefGroup = 76B57E8A1984C683EA0930E416BBF90E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25BBD98A1F8DD5E1F6F65CFAF1B91B64 /* Pods-LLPay_Example */,
+				EAE60BD2ADA8DCB217E116ADB628185C /* AFNetworking */,
+				917616026D88C719CB51DC253CECE6BE /* Pods-LLPay_Example */,
 				F127E05ED08CEA961626504DF2D6EB1D /* Pods-LLPay_Tests */,
+				FC195C9DC06516AA51A7D0E0B0268F8F /* Toast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BA246F9079880D78E741F8FD8EF6A506 /* Resources */ = {
+		2A93BD7B9A176D0163E5D2AE08E8D598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F134AE083847A523C4AE149B84307BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,9 +725,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C53D8C5BD446315A6ED3652F770ACDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07C7A3674C96B85AD8EA6C6D71BC549B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9486D80CC092F8ACB2355D5C94A155E3 /* AFAutoPurgingImageCache.m in Sources */,
+				5A4C39ACCE4CE7B6C69C736F48087759 /* AFHTTPSessionManager.m in Sources */,
+				6A5E05D187005E863177B45D58905C71 /* AFImageDownloader.m in Sources */,
+				15F1AB626337FECD0B9CFAAD90FAC342 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				8826A0887EEE1A618FA3BA34989E05B5 /* AFNetworking-dummy.m in Sources */,
+				137A6E8841A2429C00CBFA701695197E /* AFNetworkReachabilityManager.m in Sources */,
+				63A7B518E880C7AACABCD20AFA247C8C /* AFSecurityPolicy.m in Sources */,
+				CB3CA20E3732A095F5515E0621D8719C /* AFURLRequestSerialization.m in Sources */,
+				11EAB2A17E2712DB04831AD0FFD6A5DB /* AFURLResponseSerialization.m in Sources */,
+				0D58399A6DC61099900309A4449F7891 /* AFURLSessionManager.m in Sources */,
+				CB3028664CA23A1480C18C7A86CFDAF4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				402EB64C59857FE252DC98844643C420 /* UIButton+AFNetworking.m in Sources */,
+				41FD4D0D6101210E26DDDCDD17FBB7C3 /* UIImageView+AFNetworking.m in Sources */,
+				DF74915F8F367134FA4277BE9A2F52DB /* UIProgressView+AFNetworking.m in Sources */,
+				00ED59EE2784CE922358E57E241A6C75 /* UIRefreshControl+AFNetworking.m in Sources */,
+				00E2C1092D2255BB25E45DF004D3E7E5 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3E609386C47EC5E59874BEAA512C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAA8F31501A27DEEEEF88D9FAF2C2F9 /* Toast-dummy.m in Sources */,
+				756307A0D283B24749C01AC43B1BB1C5 /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6136D72374F0CD24E953FCD8EACB0FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,27 +775,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0DA1AF3DEF6E7393FE042CF7071064A /* Sources */ = {
+		7A657ACFCA1A59677AC496B1B1E433E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD76EAEF827CA6718CC23C4FC492CB0C /* Pods-LLPay_Example-dummy.m in Sources */,
+				A1A3A05100B4AA38A919038E28E7092E /* Pods-LLPay_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		67ED48064742591497BCD3C98DFEA617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = EAE60BD2ADA8DCB217E116ADB628185C /* AFNetworking */;
+			targetProxy = 1D41732E1E73E7B7A4F7C00C397583B4 /* PBXContainerItemProxy */;
+		};
+		8E7A4426CB7450A614C7166EEF993179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = FC195C9DC06516AA51A7D0E0B0268F8F /* Toast */;
+			targetProxy = 88EEE0E10A19CFE927968A2137410099 /* PBXContainerItemProxy */;
+		};
 		ACBFF69AE738452C62501C4E117FDB5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LLPay_Example";
-			target = 25BBD98A1F8DD5E1F6F65CFAF1B91B64 /* Pods-LLPay_Example */;
+			target = 917616026D88C719CB51DC253CECE6BE /* Pods-LLPay_Example */;
 			targetProxy = 2ACA46978554C3EA8E20B5D86F1C1B49 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		116401FB8C2A305CECDFEBE1AB37F22C /* Release */ = {
+		00C2C93459E852F21614174C734D6E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A9360109EC5170E057596B39FFBFBF /* Pods-LLPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D4EDCFA7779B61E96A1F258E3241C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7B908A48A9A61ABDF30B43093FFBFE /* Pods-LLPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Tests/Pods-LLPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A44BFE6411701E922EF894C1B0CEA89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 848289A25D328A7F14F039085B7EE89C /* Pods-LLPay_Tests.release.xcconfig */;
 			buildSettings = {
@@ -355,7 +890,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Tests/Pods-LLPay_Tests.modulemap";
@@ -373,40 +908,7 @@
 			};
 			name = Release;
 		};
-		3C531788AF3A6350775ECBF25045C786 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C7B908A48A9A61ABDF30B43093FFBFE /* Pods-LLPay_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Tests/Pods-LLPay_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -456,20 +958,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		58D091B9B6E4376D722369A5043454A5 /* Debug */ = {
+		8D2DCA929D6EAACBC099C6391F176FAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 090807E283B120842B35790C600E037F /* Pods-LLPay_Example.debug.xcconfig */;
+			baseConfigurationReference = 5EB67F28CDD00FD63EFC495D51E69219 /* AFNetworking.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -479,52 +983,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		70B14007C33E154421ED201CB7B727BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68A9360109EC5170E057596B39FFBFBF /* Pods-LLPay_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -532,7 +1001,68 @@
 			};
 			name = Release;
 		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		9C0C5378829F7040222B6F897A2E824C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B5667C9A054DC6FE00D9A2385E8FAE /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F05FB7480ECA0237560017761177F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB67F28CDD00FD63EFC495D51E69219 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -585,25 +1115,99 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F42C88BF1CC0B49FEA1D55DDB7314928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090807E283B120842B35790C600E037F /* Pods-LLPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LLPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC9B421F3DB3F8B62413FE3EB795F03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B5667C9A054DC6FE00D9A2385E8FAE /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2665415B73EC6456649886E4BF13C41F /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9B421F3DB3F8B62413FE3EB795F03D /* Debug */,
+				9C0C5378829F7040222B6F897A2E824C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -611,17 +1215,26 @@
 		3D01B166C99360242B18199A17CB2F44 /* Build configuration list for PBXNativeTarget "Pods-LLPay_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C531788AF3A6350775ECBF25045C786 /* Debug */,
-				116401FB8C2A305CECDFEBE1AB37F22C /* Release */,
+				5D4EDCFA7779B61E96A1F258E3241C05 /* Debug */,
+				7A44BFE6411701E922EF894C1B0CEA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A27CE9B47DA4D08F8CF5EE44059807D8 /* Build configuration list for PBXNativeTarget "Pods-LLPay_Example" */ = {
+		48F4B6926367C0A80035B4318EB4A264 /* Build configuration list for PBXNativeTarget "Pods-LLPay_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58D091B9B6E4376D722369A5043454A5 /* Debug */,
-				70B14007C33E154421ED201CB7B727BD /* Release */,
+				F42C88BF1CC0B49FEA1D55DDB7314928 /* Debug */,
+				00C2C93459E852F21614174C734D6E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8289B039CF0D8B5A385C13089893A356 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F05FB7480ECA0237560017761177F3A /* Debug */,
+				8D2DCA929D6EAACBC099C6391F176FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

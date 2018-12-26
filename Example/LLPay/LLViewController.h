@@ -11,15 +11,15 @@
 #import "LLPayUtil.h"
 #import "LLPayTool.h"
 
-CGFloat margin = 20;
-CGFloat itemHeight = 100;
-CGFloat corner = 6;
 #define width ([UIScreen mainScreen].bounds.size.width - 2 * margin)
 #define height ([UIScreen mainScreen].bounds.size.height)
-#define LLColor ([UIColor colorWithRed:0 green:160 / 255.0 blue:233 / 255.0 alpha:1])
+#define LLColor (LLHexColor(0x00a0e9))
+CGFloat margin = 20;
+CGFloat itemHeight = 75;
+CGFloat corner = 6;
 
-@interface LLViewController : UIViewController <LLPaySdkDelegate>
+@interface LLViewController : UIViewController <LLPStdSDKDelegate>
 
-@property (nonatomic, strong) LLPayUtil* signUtil;
+@property (nonatomic, strong) LLPayUtil *signUtil;
 
 @end

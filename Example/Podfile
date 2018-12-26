@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'LLPay_Example' do
   pod 'LLPay', :path => '../'
-
+  pod 'LLPay/EBank', :path => '../'
   target 'LLPay_Tests' do
     inherit! :search_paths
 

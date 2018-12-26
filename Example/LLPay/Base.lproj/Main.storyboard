@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8qU-ec-4QS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--连连支付-->
         <scene sceneID="wQg-tq-qST">
             <objects>
                 <viewController id="whP-gf-Uak" customClass="LLViewController" sceneMemberID="viewController">
@@ -18,14 +18,129 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auM-2V-UX7">
+                                <rect key="frame" x="36" y="20" width="303" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Okz-MV-nVi"/>
+                                </constraints>
+                                <state key="normal" title="支付">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath=".layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="lianlianpay:" destination="whP-gf-Uak" eventType="touchUpInside" id="Uer-cN-Zqn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wr-c1-f5m">
+                                <rect key="frame" x="36" y="90" width="303" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="kRz-zL-Tc7"/>
+                                </constraints>
+                                <state key="normal" title="签约">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath=".layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="lianliansign:" destination="whP-gf-Uak" eventType="touchUpInside" id="JZd-Ry-e3a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbp-If-Yez">
+                                <rect key="frame" x="36" y="160" width="303" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="72q-ip-lfg"/>
+                                </constraints>
+                                <state key="normal" title="银行APP支付">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath=".layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ebankpay:" destination="whP-gf-Uak" eventType="touchUpInside" id="RY3-86-Zwx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kjh-r2-1Eh">
+                                <rect key="frame" x="36" y="492" width="303" height="86"/>
+                                <string key="text">Demo中为了方便演示， 所以将加签过程以及密钥放在本地
+但是在真实APP中，请
+⚠️务必将privateKey和加签过程放在商户服务端⚠️
+以防止商户私密数据泄露，造成不必要的资金损失，及面临各种安全风险</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="auM-2V-UX7" secondAttribute="trailing" constant="20" id="3X1-MN-ex8"/>
+                            <constraint firstItem="auM-2V-UX7" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="3ep-Wq-OFe"/>
+                            <constraint firstItem="Kjh-r2-1Eh" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="4dy-yz-CeN"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="Kjh-r2-1Eh" secondAttribute="bottom" constant="25" id="LhO-BK-Iqc"/>
+                            <constraint firstItem="rbp-If-Yez" firstAttribute="top" secondItem="9wr-c1-f5m" secondAttribute="bottom" constant="10" id="OB0-im-2yf"/>
+                            <constraint firstItem="9wr-c1-f5m" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="Oyr-Bf-ImD"/>
+                            <constraint firstItem="rbp-If-Yez" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="TUX-Yg-Vkq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kjh-r2-1Eh" secondAttribute="trailing" constant="20" id="axu-aA-OTl"/>
+                            <constraint firstItem="9wr-c1-f5m" firstAttribute="top" secondItem="auM-2V-UX7" secondAttribute="bottom" constant="10" id="dFg-ME-4tG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rbp-If-Yez" secondAttribute="trailing" constant="20" id="dTe-j5-H4M"/>
+                            <constraint firstItem="auM-2V-UX7" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="20" id="ghe-gK-LbE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9wr-c1-f5m" secondAttribute="trailing" constant="20" id="kX4-ib-0iS"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="连连支付" id="UQ1-4j-Id3">
+                        <barButtonItem key="rightBarButtonItem" title="版本" style="done" id="ckJ-41-FXA">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="sdkversion:" destination="whP-gf-Uak" id="UfF-o6-I1g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="1244" y="432.23388305847078"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QkT-gt-1Dx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8qU-ec-4QS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="vGU-QV-uZr">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.62745098040000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="JJa-je-uX8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqy-go-aKa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
 </document>

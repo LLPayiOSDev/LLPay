@@ -17,12 +17,11 @@ typedef enum : NSUInteger {
 
 @interface LLPayUtil : NSObject
 
-@property (nonatomic, retain) NSArray* signKeyArray;
+@property (nonatomic, retain) NSArray *signKeyArray;
 // 签名工具
 // signKey 在 md5时是md5key，rsa是rsa私钥。
 // 然后在此再次强调：不建议客户端做签名，容易导致密钥泄露，以及不必要的客户端更新
-- (NSDictionary*)signedOrderDic:(NSDictionary*)orderDic
-                     andSignKey:(NSString*)signKey;
+- (NSDictionary *)signedOrderDic:(NSDictionary *)orderDic andSignKey:(NSString *)signKey;
 
 // 其他工具
 // 转换dic成string

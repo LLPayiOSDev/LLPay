@@ -22,6 +22,17 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8348BD0F21D0E17500B0CDAE /* LLEBankPayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8348BD0E21D0E17500B0CDAE /* LLEBankPayVC.m */; };
+		83A0EDA921D3297E00509FC4 /* libABCAppCaller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0ED9221D3297E00509FC4 /* libABCAppCaller.a */; };
+		83A0EDAA21D3297E00509FC4 /* ICBCPaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0ED9421D3297E00509FC4 /* ICBCPaySDK.framework */; };
+		83A0EDAB21D3297E00509FC4 /* ICBCPaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83A0ED9521D3297E00509FC4 /* ICBCPaySDK.bundle */; };
+		83A0EDAC21D3297E00509FC4 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0ED9A21D3297E00509FC4 /* Base64.m */; };
+		83A0EDAD21D3297E00509FC4 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0ED9C21D3297E00509FC4 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		83A0EDAE21D3297E00509FC4 /* NSDictionaryXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0ED9F21D3297E00509FC4 /* NSDictionaryXMLParser.m */; };
+		83A0EDAF21D3297E00509FC4 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0EDA021D3297E00509FC4 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		83A0EDB021D3297E00509FC4 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A0EDA321D3297E00509FC4 /* XMLDictionary.m */; };
+		83A0EDB121D3297E00509FC4 /* CCBSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83A0EDA721D3297E00509FC4 /* CCBSDK.bundle */; };
+		83A0EDB221D3297E00509FC4 /* CCBNetPaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0EDA821D3297E00509FC4 /* CCBNetPaySDK.framework */; };
 		83DECF062090A113001F3C98 /* libRsaCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DECF032090A112001F3C98 /* libRsaCrypto.a */; };
 		83DECF072090A113001F3C98 /* LLPayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DECF052090A112001F3C98 /* LLPayUtil.m */; };
 		83DECF0A2090A125001F3C98 /* LLPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DECF082090A125001F3C98 /* LLPayTool.m */; };
@@ -66,6 +77,26 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		786F2A8966C928121778AC10 /* Pods-LLPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLPay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLPay_Tests/Pods-LLPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8348BD0D21D0E17400B0CDAE /* LLEBankPayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLEBankPayVC.h; sourceTree = "<group>"; };
+		8348BD0E21D0E17500B0CDAE /* LLEBankPayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLEBankPayVC.m; sourceTree = "<group>"; };
+		83A0ED9121D3297E00509FC4 /* ABCAppCaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCAppCaller.h; sourceTree = "<group>"; };
+		83A0ED9221D3297E00509FC4 /* libABCAppCaller.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libABCAppCaller.a; sourceTree = "<group>"; };
+		83A0ED9421D3297E00509FC4 /* ICBCPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ICBCPaySDK.framework; sourceTree = "<group>"; };
+		83A0ED9521D3297E00509FC4 /* ICBCPaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ICBCPaySDK.bundle; sourceTree = "<group>"; };
+		83A0ED9821D3297E00509FC4 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		83A0ED9921D3297E00509FC4 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		83A0ED9A21D3297E00509FC4 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		83A0ED9B21D3297E00509FC4 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		83A0ED9C21D3297E00509FC4 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		83A0ED9E21D3297E00509FC4 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		83A0ED9F21D3297E00509FC4 /* NSDictionaryXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryXMLParser.m; sourceTree = "<group>"; };
+		83A0EDA021D3297E00509FC4 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		83A0EDA221D3297E00509FC4 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		83A0EDA321D3297E00509FC4 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		83A0EDA421D3297E00509FC4 /* GDataDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataDefines.h; sourceTree = "<group>"; };
+		83A0EDA521D3297E00509FC4 /* NSDictionaryXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryXMLParser.h; sourceTree = "<group>"; };
+		83A0EDA721D3297E00509FC4 /* CCBSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CCBSDK.bundle; sourceTree = "<group>"; };
+		83A0EDA821D3297E00509FC4 /* CCBNetPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCBNetPaySDK.framework; sourceTree = "<group>"; };
 		83DECF032090A112001F3C98 /* libRsaCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRsaCrypto.a; sourceTree = "<group>"; };
 		83DECF042090A112001F3C98 /* LLPayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPayUtil.h; sourceTree = "<group>"; };
 		83DECF052090A112001F3C98 /* LLPayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPayUtil.m; sourceTree = "<group>"; };
@@ -85,8 +116,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				83A0EDA921D3297E00509FC4 /* libABCAppCaller.a in Frameworks */,
+				83A0EDAA21D3297E00509FC4 /* ICBCPaySDK.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				83A0EDB221D3297E00509FC4 /* CCBNetPaySDK.framework in Frameworks */,
 				9EA7681C95DC2DB8BC96DBC1 /* Pods_LLPay_Example.framework in Frameworks */,
 				83DECF062090A113001F3C98 /* libRsaCrypto.a in Frameworks */,
 			);
@@ -143,12 +177,15 @@
 		6003F593195388D20070C39A /* Example for LLPay */ = {
 			isa = PBXGroup;
 			children = (
+				83A0ED8F21D3297E00509FC4 /* BankSDK */,
 				83DECF022090A112001F3C98 /* LLPayUtils */,
 				6003F59C195388D20070C39A /* LLAppDelegate.h */,
 				6003F59D195388D20070C39A /* LLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LLViewController.h */,
 				6003F5A6195388D20070C39A /* LLViewController.m */,
+				8348BD0D21D0E17400B0CDAE /* LLEBankPayVC.h */,
+				8348BD0E21D0E17500B0CDAE /* LLEBankPayVC.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -198,6 +235,87 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		83A0ED8F21D3297E00509FC4 /* BankSDK */ = {
+			isa = PBXGroup;
+			children = (
+				83A0ED9021D3297E00509FC4 /* ABCLib */,
+				83A0ED9321D3297E00509FC4 /* ICBCLib */,
+				83A0EDA621D3297E00509FC4 /* CCBLib */,
+			);
+			path = BankSDK;
+			sourceTree = "<group>";
+		};
+		83A0ED9021D3297E00509FC4 /* ABCLib */ = {
+			isa = PBXGroup;
+			children = (
+				83A0ED9121D3297E00509FC4 /* ABCAppCaller.h */,
+				83A0ED9221D3297E00509FC4 /* libABCAppCaller.a */,
+			);
+			path = ABCLib;
+			sourceTree = "<group>";
+		};
+		83A0ED9321D3297E00509FC4 /* ICBCLib */ = {
+			isa = PBXGroup;
+			children = (
+				83A0ED9421D3297E00509FC4 /* ICBCPaySDK.framework */,
+				83A0ED9521D3297E00509FC4 /* ICBCPaySDK.bundle */,
+				83A0ED9621D3297E00509FC4 /* ICBCPayUtil */,
+			);
+			path = ICBCLib;
+			sourceTree = "<group>";
+		};
+		83A0ED9621D3297E00509FC4 /* ICBCPayUtil */ = {
+			isa = PBXGroup;
+			children = (
+				83A0ED9721D3297E00509FC4 /* base64 */,
+				83A0ED9D21D3297E00509FC4 /* xml */,
+			);
+			path = ICBCPayUtil;
+			sourceTree = "<group>";
+		};
+		83A0ED9721D3297E00509FC4 /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				83A0ED9821D3297E00509FC4 /* Base64.h */,
+				83A0ED9921D3297E00509FC4 /* GTMBase64.h */,
+				83A0ED9A21D3297E00509FC4 /* Base64.m */,
+				83A0ED9B21D3297E00509FC4 /* GTMDefines.h */,
+				83A0ED9C21D3297E00509FC4 /* GTMBase64.m */,
+			);
+			path = base64;
+			sourceTree = "<group>";
+		};
+		83A0ED9D21D3297E00509FC4 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				83A0ED9E21D3297E00509FC4 /* GDataXMLNode.h */,
+				83A0ED9F21D3297E00509FC4 /* NSDictionaryXMLParser.m */,
+				83A0EDA021D3297E00509FC4 /* GDataXMLNode.m */,
+				83A0EDA121D3297E00509FC4 /* XMLDictionary */,
+				83A0EDA421D3297E00509FC4 /* GDataDefines.h */,
+				83A0EDA521D3297E00509FC4 /* NSDictionaryXMLParser.h */,
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
+		83A0EDA121D3297E00509FC4 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				83A0EDA221D3297E00509FC4 /* XMLDictionary.h */,
+				83A0EDA321D3297E00509FC4 /* XMLDictionary.m */,
+			);
+			path = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		83A0EDA621D3297E00509FC4 /* CCBLib */ = {
+			isa = PBXGroup;
+			children = (
+				83A0EDA721D3297E00509FC4 /* CCBSDK.bundle */,
+				83A0EDA821D3297E00509FC4 /* CCBNetPaySDK.framework */,
+			);
+			path = CCBLib;
+			sourceTree = "<group>";
+		};
 		83DECF022090A112001F3C98 /* LLPayUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +351,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				DA487E3069FA9C3C95FD4256 /* [CP] Copy Pods Resources */,
+				852165B8464A288D8B9D66F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,6 +425,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				83DECF0C2090AB96001F3C98 /* CHANGELOG.md in Resources */,
+				83A0EDAB21D3297E00509FC4 /* ICBCPaySDK.bundle in Resources */,
+				83A0EDB121D3297E00509FC4 /* CCBSDK.bundle in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -323,6 +444,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		852165B8464A288D8B9D66F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B82639C1D373B51ECD79FB58 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,7 +493,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-resources.sh",
-				"${PODS_ROOT}/../../LLPay/Assets/walletResources.bundle",
+				"${PODS_ROOT}/../../LLPay/walletResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -384,9 +529,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A0EDAC21D3297E00509FC4 /* Base64.m in Sources */,
+				83A0EDAE21D3297E00509FC4 /* NSDictionaryXMLParser.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
+				83A0EDAD21D3297E00509FC4 /* GTMBase64.m in Sources */,
 				83DECF072090A113001F3C98 /* LLPayUtil.m in Sources */,
+				8348BD0F21D0E17500B0CDAE /* LLEBankPayVC.m in Sources */,
+				83A0EDB021D3297E00509FC4 /* XMLDictionary.m in Sources */,
+				83A0EDAF21D3297E00509FC4 /* GDataXMLNode.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				83DECF0A2090A125001F3C98 /* LLPayTool.m in Sources */,
 			);
@@ -471,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -517,12 +668,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM7X2GJGGF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLPay/BankSDK/ICBCLib",
+					"$(PROJECT_DIR)/LLPay/BankSDK/CCBLib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLPay/LLPay-Prefix.pch";
 				INFOPLIST_FILE = "LLPay/LLPay-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LLPay/LLPayUtils",
+					"$(PROJECT_DIR)/LLPay/BankSDK/ABCLib",
 				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -537,12 +694,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM7X2GJGGF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLPay/BankSDK/ICBCLib",
+					"$(PROJECT_DIR)/LLPay/BankSDK/CCBLib",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLPay/LLPay-Prefix.pch";
 				INFOPLIST_FILE = "LLPay/LLPay-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LLPay/LLPayUtils",
+					"$(PROJECT_DIR)/LLPay/BankSDK/ABCLib",
 				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
