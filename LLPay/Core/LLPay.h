@@ -31,4 +31,12 @@ typedef NS_ENUM(NSUInteger, LLPStdSDKResult) {
  */
 - (void)paymentEnd:(LLPStdSDKResult)resultCode withResultDic:(NSDictionary*)dic;
 
+@optional
+/**
+ *  支付成功后返回的用户信息
+ *
+ *  @param shippingMessages 用户信息的字典，key值就是LLShippingMessageName等
+ */
+- (void)paymentSucceededWithShippingMessages: (NSDictionary *)shippingMessages;
+
 @end

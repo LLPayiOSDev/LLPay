@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LLPay'
-  s.version          = '2.7.6'
+  s.version          = '2.7.7'
   s.summary          = 'LianLian Pay Standard Payment SDK'
   s.description      = <<-DESC
 LLPay 是一个支持认证、快捷、分期付,银行APP支付等支付方式的SDK， 为商户提供内嵌于APP的支付功能。

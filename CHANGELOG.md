@@ -1,5 +1,9 @@
 CHANGELOG
 ===
+## [LLPay 2.7.7](https://gitee.com/LLPayiOS/LLPay/tree/2.7.7/)
+Build 20190318
+
+- 服务协议去除勾选， 下一步改为 “同意服务协议并支付”
 
 ## [LLPay 2.7.6](https://gitee.com/LLPayiOS/LLPay/tree/2.7.6/)
 - 银行APP支付兼容网联渠道

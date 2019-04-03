@@ -1,6 +1,6 @@
 {
   "name": "LLPay",
-  "version": "2.7.6",
+  "version": "2.7.7",
   "summary": "LianLian Pay Standard Payment SDK",
   "description": "LLPay 是一个支持认证、快捷、分期付,银行APP支付等支付方式的SDK， 为商户提供内嵌于APP的支付功能。",
   "homepage": "https://gitee.com/LLPayiOS/LLPay",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitee.com/LLPayiOS/LLPay.git",
-    "tag": "2.7.6"
+    "tag": "2.7.7"
   },
   "platforms": {
     "ios": "7.0"

@@ -24,14 +24,14 @@ pod 'LLPay'
 
 - 设置SDK代理
 
-```
+```objc
 [LLPaySdk sharedSdk].sdkDelegate = self;
 ```
 > 如果设置代理为一个支付model， 请保证这个modle在支付过程中不会销毁，以防程序崩溃
 
 - 调用SDK,如认证支付
 
-```
+```objc
 [[LLPaySdk sharedSdk] presentLLPaySDKInViewController:self withPayType:LLPayTypeVerify andTraderInfo:traderInfo];
 ```
 
@@ -65,8 +65,8 @@ pod 'LLPay'
 
 ## Author
 
-LLPayiOSDev, iosdev@yintong.com.cn
+LLPayiOSDev, iosdev@lianlianpay.com
 
 ## License
 
-© 2003-2018 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
+© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.

@@ -404,6 +404,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -452,7 +453,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
@@ -465,7 +466,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B82639C1D373B51ECD79FB58 /* [CP] Check Pods Manifest.lock */ = {
@@ -492,7 +493,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-resources.sh",
 				"${PODS_ROOT}/../../LLPay/walletResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -501,7 +502,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLPay_Example/Pods-LLPay_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAF496324C66D5785D998C35 /* [CP] Check Pods Manifest.lock */ = {
