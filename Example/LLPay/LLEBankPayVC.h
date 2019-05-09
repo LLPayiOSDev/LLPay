@@ -2,7 +2,7 @@
 //  LLEBankPayVC.h
 //  DemoPay
 //
-//  Created by EvenLam on 2017/7/21.
+//  Created by EvenLin on 2017/7/21.
 //  Copyright © 2017年 LianLianPay. All rights reserved.
 //
 

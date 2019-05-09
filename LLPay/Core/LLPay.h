@@ -2,7 +2,7 @@
 //  LLPay.h
 //  LLPay
 //
-//  Created by Fynil on 2018/12/24.
+//  Created by EvenLin on 2018/12/24.
 //  Copyright © 2018 LLPayiOSDev. All rights reserved.
 //
 

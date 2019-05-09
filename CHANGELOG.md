@@ -1,5 +1,11 @@
 CHANGELOG
 ===
+
+## [LLPay 2.7.8](https://gitee.com/LLPayiOS/LLPay/tree/2.7.8/)
+Build 20190428
+
+- 银行APP支付： 招商银行、中国银行支持网联渠道APP调用 
+
 ## [LLPay 2.7.7](https://gitee.com/LLPayiOS/LLPay/tree/2.7.7/)
 Build 20190318
 
@@ -11,7 +17,7 @@ Build 20190318
 ## [LLPay 2.7.5](https://gitee.com/LLPayiOS/LLPay/tree/2.7.5/) 
 
 Build 2018103101
-- 弹窗高度调整（嗯， 上下黄金比例）
+- 弹窗高度调整
 - 界面更新
 
 ## [LLPay 2.7.3](https://github.com/LLPayiOSDev/LLPay/releases/tag/2.7.3) 

@@ -2,7 +2,7 @@
 //  LLBankPaySDK.h
 //  LLBankPaySDK
 //
-//  Created by EvenLam on 2017/7/5.
+//  Created by EvenLin on 2017/7/5.
 //  Copyright © 2017年 LianLian Pay. All rights reserved.
 //
 

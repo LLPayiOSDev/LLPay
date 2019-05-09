@@ -2,7 +2,7 @@
 //  LLEBankPayVC.m
 //  DemoPay
 //
-//  Created by EvenLam on 2017/7/21.
+//  Created by EvenLin on 2017/7/21.
 //  Copyright © 2017年 LianLianPay. All rights reserved.
 //
 
@@ -52,7 +52,7 @@ static NSString *kSelectedBankKey = @"selectedBankKey";
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     NSString *time = [LLPayTool timeStamp];
     param[@"user_id"] = time;
-    param[@"oid_partner"] = @"201601250000011008";//@"201306081000001016";
+    param[@"oid_partner"] = @"201306081000001016";
     param[@"sign_type"] = @"MD5";
     param[@"busi_partner"] = @"101001";
     param[@"no_order"] = [LLPayTool generateTradeNO];
@@ -60,12 +60,12 @@ static NSString *kSelectedBankKey = @"selectedBankKey";
     param[@"name_goods"] = @"连连测试商品";
     param[@"money_order"] = @"0.01";
     param[@"notify_url"] = @"https://www.lianlianpay.com";
-    param[@"return_url"] = @"https://sdk.lianlianpay.com";
+    param[@"return_url"] = @"https://www.lianlianpay.com";
 
     param[@"bank_code"] = bankCode;
     // sign
     LLPayUtil *util = [[LLPayUtil alloc] init];
-    NSDictionary *dic = [util signedOrderDic:[param copy] andSignKey:@"201601250000011007_1"];
+    NSDictionary *dic = [util signedOrderDic:[param copy] andSignKey:@"yintong1234567890"];
     [LLEBankPaySDK sharedSDK].sdkDelegate = self;
     [[LLEBankPaySDK sharedSDK] llEBankPayInViewController:self andPaymentInfo:dic];
 }
@@ -73,18 +73,9 @@ static NSString *kSelectedBankKey = @"selectedBankKey";
 - (void)paymentEnd:(LLPStdSDKResult)resultCode withResultDic:(NSDictionary *)dic {
     NSString *msg = @"支付异常";
     switch (resultCode) {
-        case LLPStdSDKResultSuccess: {
-            msg = @"支付成功";
-            break;
-        }
-        case LLPStdSDKResultFail: {
-            msg = @"支付失败";
-            break;
-        }
-        case LLPStdSDKResultCancel: {
-            msg = @"支付取消";
-            break;
-        }
+        case LLPStdSDKResultSuccess: msg = @"支付成功"; break;
+        case LLPStdSDKResultFail: msg = @"支付失败"; break;
+        case LLPStdSDKResultCancel: msg = @"支付取消"; break;
         case LLPStdSDKResultInitError: msg = @"SDK初始化异常"; break;
         case LLPStdSDKResultInitParamError: msg = dic[@"ret_msg"]; break;
         default: break;
@@ -247,10 +238,7 @@ static NSString *kSelectedBankKey = @"selectedBankKey";
 
 - (NSArray *)bankArr {
     if (!_bankArr) {
-        NSBundle *bundle = [NSBundle bundleForClass:NSClassFromString(@"LLPay")];
-        NSString *bundlePath = [bundle pathForResource:@"walletResources" ofType:@"bundle"];
-        NSBundle *sdkBundle = [NSBundle bundleWithPath:bundlePath];
-        NSString *path = [sdkBundle pathForResource:@"LLBankList" ofType:@"plist"];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"LLDemoBankList" ofType:@"plist"];
         _bankArr = [NSArray arrayWithContentsOfFile:path];
     }
     return _bankArr;

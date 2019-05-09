@@ -1,19 +1,19 @@
 {
   "name": "LLPay",
-  "version": "2.7.7",
-  "summary": "LianLian Pay Standard Payment SDK",
+  "version": "2.7.8",
+  "summary": "连连支付标准版SDK，LianLian Pay Standard SDK",
   "description": "LLPay 是一个支持认证、快捷、分期付,银行APP支付等支付方式的SDK， 为商户提供内嵌于APP的支付功能。",
   "homepage": "https://gitee.com/LLPayiOS/LLPay",
   "license": {
     "type": "Copyright",
-    "text": "© 2003-2018 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved."
+    "text": "© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved."
   },
   "authors": {
-    "LLPayiOSDev": "iosdev@yintong.com.cn"
+    "LLPayiOSDev": "iosdev@lianlianpay.com"
   },
   "source": {
     "git": "https://gitee.com/LLPayiOS/LLPay.git",
-    "tag": "2.7.7"
+    "tag": "2.7.8"
   },
   "platforms": {
     "ios": "7.0"
@@ -49,20 +49,10 @@
       "dependencies": {
         "LLPay/Core": [
 
-        ],
-        "AFNetworking": [
-          "~>3.0"
-        ],
-        "Toast": [
-
         ]
       },
       "source_files": "LLPay/EBank/*.h",
-      "resources": "LLPay/walletResources.bundle",
-      "xcconfig": {
-        "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
-      },
-      "libraries": "xml2"
+      "resources": "LLPay/walletResources.bundle"
     }
   ]
 }

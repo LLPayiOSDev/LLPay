@@ -27,7 +27,6 @@
 |walletResources.bundle      |  资源文件， 包含自定义 css 以及图片资源   |
 |README.md                		|	连连支付银行APP支付iOS SDK接入指南|
 |CHANGELOG.md                 |	更新日志                              |
-|BankSDK 文件夹					|	银行 SDK（请手动集成）                |
 
 ## 三、集成连连银行APP支付 SDK
 
@@ -39,133 +38,45 @@
 
 > 直接导入工程
 
-导入连连支付银行APP支付的静态库及相应的 LLEBankResources.bundle 文件（请勿更改 bundle 文件名）
+导入连连支付银行APP支付的静态库、银行framework（若有）及相应的 bundle 文件（请勿更改 bundle 文件名）
 
-请检查 build phases 中 是否有导入**`libLLEBankPaySDK.a`**
+- 请检查 build phases 中 是否有导入**`*.a`，`*.framework`**
 
-Copy Bundle Resources  是否有引入**`walletResources.bundle `**
+- Copy Bundle Resources  是否有引入**`*.bundle `**
+- 若导入了工行framework，请依赖`AFNetworking 3.0`, `Toast`这两个第三方库
 
-## 四、导入银行 SDK
 
-将 [BankSDK 文件夹](https://gitee.com/LLPayiOS/LLPay/tree/master/LLPay/EBank)拖入工程目录， 勾选 Copy Item If Needed 以导入银行SDK以及相应的bundle文件
+## 四、Xcode 配置
 
-请检查 build phases 中 是否有导入
-
-* libABCAppCaller.a (农行 SDK )
-* ICBCPaySDK.framework (工行 SDK )
-* CCBNetPaySDK.framework （建行SDK）
-
-Copy Bundle Resources  是否有引入
-
-* ICBCPaySDK.bundle (工行资源包)
-* CCBSDK.bundle （建行资源包）
-
-接入**工商银行SDK**所需的第三方组件。 主要为
-
-[XML组件](https://github.com/neonichu/GDataXML/tree/master/Sources/GDataXML)、
-[base64组件](https://github.com/nicklockwood/Base64) 、
-[GTM Base 64](https://github.com/r258833095/GTMBase64)、
-[AFNetWorking](https://github.com/AFNetworking/AFNetworking/)、
-[toast组件](https://github.com/scalessec/Toast)。
-
-**注： 如果使用了 CocoaPods 集成， LLPay/EBank 会自动依赖 AFNetworking 3.0以上版本， 以及 Toast 4.0.0 组件， 有关XML的工程配置也会自动加上**
-
-## 五、Xcode 配置
-
-### 5.1 Build Setting 
+### 4.1 Build Setting 
 
 **如果使用 CocoaPods， 则无需配置**
 
 * Other linker flags  
 	* 添加 **-ObjC**  解决使用LLEBankPaySDK中分类时出现的Unrecognized Selector的问题
-	* 添加**-lxml2**  解决“Libxml/tree.h” file not found
-* Header Search Path
-	* 添加 **/usr/include/libxml2**  解决“Libxml/tree.h” file not found
-
-### 5.2 Build Phases 
-
-请确保导入了BankSDK文件夹
-
-* Compile sources
-	* 找到GTMBase64.m 和 GDataXmlNode.m， 点击右边的Compiler Flags 添加 **-fno-objc-arc** 以禁用ARC
 	
-### 5.3 Info
+### 4.2 Info
 
 * Plist : Custom iOS Target Properties
 * 为了调起银行的 APP ， 需要在 info.plist 中，将银行APP的Scheme添加到白名单中
 * 添加 key **LSApplicationQueriesSchemes** ，Type 设置为 NSArray 类型， 并添加以下items (String)
-	* mbspay    （中国建设银行）
-	* bankabc   （中国农业银行）
 	* com.icbc.iphoneclient   （中国工商银行）
 	* cmbmobilebank   （招商银行）
 	* bocpay    （中国银行）
-	
-```xml
-<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>mbspay</string>
-		<string>bankabc</string>
-		<string>com.icbc.iphoneclient</string>
-		<string>cmbmobilebank</string>
-		<string>bocpay</string>
-	</array>
-```
 
-### 5.4 URL Types
+### 4.3 URL Types
 
 为了让银行APP在处理完交易后点击返回商户能返回商户的APP， 需要配置商户APP的 URL Schemes
 
-* 添加 URL Schemes，设置 Identifier 为 **LLEBankScheme**, 此处需要添加三个 schemes，  建行与中行需要单独配置，每个 schemes 中间以英文逗号隔开，schemes 格式如下：
-	1. schemes 格式为 ll*****
-	2. schemes 格式为 comccbpay105330173990049+字母如（llebankpay）
-	3. schemes 为 bocmcht
+* 添加 URL Schemes，设置 Identifier 为 **LLEBankScheme**, 此处需要添加两个 scheme，  中行需要单独配置，每个 scheme 中间以英文逗号隔开，scheme 格式如下：
+	1. scheme 格式为 ll*****
+	2. scheme 为 lianlianpay
+	
+### 4.4 App Transport Security Settings
 
-```xml
-<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string>LLEBankScheme</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>ll201310102000003524EbankPay</string>
-				<string>comccbpay105330173990049EBankPay</string>
-				<string>bocmcht</string>
-			</array>
-		</dict>
-	</array>
-```
-### 5.5 App Transport Security Settings
+* **若 Allow Arbitrary Loads 为 NO**，请设置`Allow Arbitrary Loads in Web Content`为YES
 
-* **若 Allow Arbitrary Loads 为 NO**，请为建行 SDK 设置 ExceptionDomain
-* Info.plist Open As Source Code 然后加入以下Xml代码
-
-```xml
-<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<false/>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>ccb.com.cn</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-				<key>NSExceptionMinimumTLSVersion</key>
-				<string>TLSv1.2</string>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSRequiresCertificateTransparency</key>
-				<true/>
-				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
-				<false/>
-			</dict>
-		</dict>
-	</dict>	
-```
-
-## 六、代码示例
+## 五、代码示例
 
 > LLEBankPaySDK调用， 需要根据接入文档组织报文， 在商户服务端签名后， 将签名值放入dic中，再调用此方法
 
@@ -203,7 +114,7 @@ Copy Bundle Resources  是否有引入
 ```
 
 
-## 七、SDK返回码说明
+## 六、SDK返回码说明
 
 |返回码|说明|
 |-----|-----|
@@ -220,13 +131,12 @@ Copy Bundle Resources  是否有引入
 
 ## 注意事项
 * 本SDK最低支持 iOS 7.0
-* 工行SDK暂不支持bitcode
 
 ## Author
 
-LLPayiOSDev, iosdev@yintong.com.cn
+LLPayiOSDev, iosdev@lianlianpay.com
 
 ## License
 
-© 2003-2018 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
+© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
 
