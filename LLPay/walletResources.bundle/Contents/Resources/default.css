@@ -20,7 +20,6 @@
 #TX-S{font-size:15px}
 #TX-HeadView{font-color:#333333;bg-color:#ffffff}
 
-
 #TX-1{font-color:#333333}
 #TX-2{font-color:#ff0000}
 #TX-3{font-color:#00a0e9} /*短信弹框确认文字颜色，购买信息价格文字颜色 #fe5000*/
@@ -36,7 +35,7 @@ UIView{font-size:18px;}
 UILabel{background-color:clear;width:100px;height:15}
 
 /* textFieldBoderColorHi #fe5000*/
-UITextField{left:8px;width:304px;height:44px;border-style:none;font-color:#333333;font-size:16px;border-width:.4f;border-color:#d7d7d7;border-color-hi:#00a0e9;border-radius:0;background-color:#ffffff}
+UITextField{left:8px;width:304px;height:44px;border-style:none;font-color:#333333;font-size:16px;border-width:.4f;border-color:#d7d7d7;border-color-hi:#00a0e9;border-radius:5;background-color:#ffffff}
 UITextView{background-color:#00000000;width:320px;height:100px;}
 UIButton{left:10px;width:300px;height:40px;font-color:#ffffff;font-size:18px;}
 UITableView{width:320px;height:200px;}
@@ -58,7 +57,7 @@ CusTitles {payTitle:连连支付;signTitle:绑卡;alertTitle:请输入验证码}
 .formInputField{font-size:18px;border-style:none;}
 
 
-LLColorButton{border-radius:0px;}
+LLColorButton{border-radius:5px;}
 
 /*
  #a-button{normal-color:#fa3807;hi-color:#b73737;disable-color:214,214,214}
@@ -70,12 +69,12 @@ LLColorButton{border-radius:0px;}
 #d-button{normal-color:#dcdcdc;hi-color:#a9a9a9;}
 #e-button{normal-color:#ffeec1;hi-color:#eeeeee;border-color:#ffd778;border-width:0.8px;font-color:#fe5000;}
 #f-button{normal-color:#ffffff;hi-color:#999999;border-color:#d9d9d9;border-width:0.8px;font-color:#666666;}
-#pay-button{normal-color:#00a0e9;hi-color:#017fc7;disable-color:214,214,214;border-radius:0}
+#pay-button{normal-color:#00a0e9;hi-color:#017fc7;disable-color:214,214,214;border-radius:5}
 
 #half-button{width:128px;font-size:14px;}
 
 #sms-button-d{background-image:D短信验证码按钮.png;background-image-hi:D短信验证码按钮按压.png;background-image-disable:D短信验证码按钮不可点击.png;
-width:99;height:44;}
+    width:99;height:44;}
 
 #confirm-short-button {
     background-image:B弹框按钮.png;
@@ -112,8 +111,8 @@ basePage{}
 #support-tip{font-color:#666666;font-size:15px;align:center;width:300;height:44px;}
 
 /*
-#LLToast_pay{ll_goodds_info:购买%1$s元的%2$s}
-*/
+ #LLToast_pay{ll_goodds_info:购买%1$s元的%2$s}
+ */
 
 /*
  支付显示方式

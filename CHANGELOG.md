@@ -1,6 +1,14 @@
 CHANGELOG
 ===
 
+## [LLPay 2.7.9](https://gitee.com/LLPayiOS/LLPay/tree/2.7.9/)
+Build 20190708
+
+- 银行APP支付支持工行APP支付了
+- 页面风格修改为圆角（可自定义）
+- SDK内部支持左滑返回
+- 适配iOS 13 modalPresentationStyle
+
 ## [LLPay 2.7.8](https://gitee.com/LLPayiOS/LLPay/tree/2.7.8/)
 Build 20190428
 

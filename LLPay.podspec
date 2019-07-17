@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LLPay'
-  s.version          = '2.7.8'
+  s.version          = '2.7.9'
   s.summary          = '连连支付标准版SDK，LianLian Pay Standard SDK'
   s.description      = <<-DESC
 LLPay 是一个支持认证、快捷、分期付,银行APP支付等支付方式的SDK， 为商户提供内嵌于APP的支付功能。
@@ -36,9 +36,7 @@ LLPay 是一个支持认证、快捷、分期付,银行APP支付等支付方式�
       es.dependency 'LLPay/Core'
       es.source_files = 'LLPay/EBank/*.h'
       es.resource = 'LLPay/walletResources.bundle'
-      #ICBC Dependency
-      #es.dependency 'AFNetworking','~>3.0'
-      #es.dependency 'Toast'
+      es.dependency 'LLMPay/ICBC'
   end
   
 end
