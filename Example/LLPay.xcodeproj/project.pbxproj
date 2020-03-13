@@ -550,6 +550,7 @@
 			baseConfigurationReference = B57DC7F53554B04E54BD0171 /* Pods-LLPay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2020031301;
 				DEVELOPMENT_TEAM = VM7X2GJGGF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -564,6 +565,7 @@
 					"$(PROJECT_DIR)/LLPay/LLPayUtils",
 					"$(PROJECT_DIR)/LLPay/BankSDK/ABCLib",
 				);
+				MARKETING_VERSION = 2.8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -576,6 +578,7 @@
 			baseConfigurationReference = E24FA0E96FD47856C96AD74D /* Pods-LLPay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 2020031301;
 				DEVELOPMENT_TEAM = VM7X2GJGGF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -590,6 +593,7 @@
 					"$(PROJECT_DIR)/LLPay/LLPayUtils",
 					"$(PROJECT_DIR)/LLPay/BankSDK/ABCLib",
 				);
+				MARKETING_VERSION = 2.8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

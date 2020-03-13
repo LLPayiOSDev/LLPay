@@ -10,7 +10,7 @@
 #import "LLEBankPayVC.h"
 
 //如果使用认证或者分期付， 请在createLLOrder方法中传入姓名和身份证
-LLPayType payType = LLPayTypeNewVerify;
+LLPayType payType = LLPayTypeQuick;
 
 @interface LLViewController ()
 

@@ -1,17 +1,17 @@
 Pod::Spec.new do |s|
   s.name             = 'LLPay'
-  s.version          = '2.7.9'
+  s.version          = '2.8.0'
   s.summary          = '连连支付标准版SDK，LianLian Pay Standard SDK'
   s.description      = <<-DESC
 LLPay 是一个支持认证、快捷、分期付,银行APP支付等支付方式的SDK， 为商户提供内嵌于APP的支付功能。
                        DESC
 
   s.homepage         = 'https://gitee.com/LLPayiOS/LLPay'
-  s.license          = { :type => 'Copyright', :text => '© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.' }
+  s.license          = { :type => 'Copyright', :text => '© 2003-2020 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.' }
   s.author           = { 'LLPayiOSDev' => 'iosdev@lianlianpay.com' }
   s.source           = { :git => 'https://gitee.com/LLPayiOS/LLPay.git', :tag => s.version.to_s }
   s.platform = :ios
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
   s.default_subspecs = 'Pay'
   

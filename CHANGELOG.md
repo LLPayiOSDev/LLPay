@@ -1,5 +1,11 @@
 CHANGELOG
 ===
+## [LLPay 2.8.0](https://gitee.com/LLPayiOS/LLPay/tree/2.8.0/)
+Build 20200115
+
+- 更新为WKWebView
+- 禁用黑暗模式
+- 修复了iOS13 验证码按钮被压缩问题
 
 ## [LLPay 2.7.9](https://gitee.com/LLPayiOS/LLPay/tree/2.7.9/)
 Build 20190708

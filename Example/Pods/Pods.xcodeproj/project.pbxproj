@@ -32,58 +32,58 @@
 
 /* Begin PBXBuildFile section */
 		0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7AECE564DFBD0F6308A3906D8FBD6F /* Foundation.framework */; };
-		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E8310A5ECCB442542FD4770ADEC3A723 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 391BEBA3F6DD72A452B1A0E00F8C9375 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1705521EB5E7389E9C96FC5901EBD014 /* AFImageDownloader.m */; };
-		169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D313695A4B3BE0FF5041BD77025DC0 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E32BECEEDDDE888C8771313B8AA0D9 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F7DA77A2555E3147EA3C28C42FB8CBD /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 407B2109D744E909968F4750B71A04D8 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4292B8827118CC6EFBFC5C0E9DD4B895 /* AFImageDownloader.m */; };
+		169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C95C2B09D3DBC039B5E8413DCAF78AF6 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A86AE50C7C49BF4A6C95302BE2918234 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1F58ED0791AE18C1604D343C63C95C /* MobileCoreServices.framework */; };
-		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B37D733B7772105DF74DAF2EDFF5DCF /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D29519074F52F13026D87026F935ECF1 /* AFAutoPurgingImageCache.m */; };
-		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 310EBB6A526BB2784290E4C72DA6F33C /* UIButton+AFNetworking.m */; };
-		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 003D418D669204B5606F4B94A7798BEF /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CF9A0C2E0154F4F8297F80473993DC /* AFNetworking-dummy.m */; };
-		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1B5B6D0A58EF98C7E9C328A8052636 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A58E0700B754E83231DE4B965AA073B /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C1EA442FC657EEEBECA4A6316BCD6 /* AFAutoPurgingImageCache.m */; };
+		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F013ADB1D55BF9991CA24D33D66AD1A /* UIButton+AFNetworking.m */; };
+		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 608DFD02BA93D616EC2400F8801808C7 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE720D9377D7793737A6CBF977871D3A /* AFNetworking-dummy.m */; };
+		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 467F2046D5898A3BBB35524DF03B0098 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516BEA84A5347104A375E9C83644A94E /* CoreGraphics.framework */; };
-		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8F80661EA98C8DEC89D09C80F19E60 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B40B519E01242A613EFB2C37CFDFB61 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		487B917F4ED8D3AD42585D672D2188F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7AECE564DFBD0F6308A3906D8FBD6F /* Foundation.framework */; };
 		4BCBF6BCC6BECC2940BCB9FF998D81A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7AECE564DFBD0F6308A3906D8FBD6F /* Foundation.framework */; };
-		4D6C822B7071753D62A6A175E35C201D /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A058B7D9256CC4BE51642B38E87DA5 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11581FA635A38F9E76D57150C559EA10 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		683349D3F930DD3E8E3BFAD034C42766 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7EF2D8FBE312C93EED37FF4F753298 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F147AFA335FBC16AB7B2CD3D2B43EA1 /* AFNetworkActivityIndicatorManager.m */; };
-		6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D928174712E6E86C4389051E26756A1 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E73FBFF9BACEA4854E8891C65CCCE2F /* AFSecurityPolicy.m */; };
-		77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B37CC6BC5DE3BD63BC2B16991F2D49 /* AFHTTPSessionManager.m */; };
-		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 408498CE0A5748FA362BAF8C07705763 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CB2262BAD2915274330CC1B7BE355 /* AFURLSessionManager.m */; };
-		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC3D1EEAB4371CEAC3360268BDF3254 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 99885120A34ECDCE4654AA39A91D785A /* UIActivityIndicatorView+AFNetworking.m */; };
+		4D6C822B7071753D62A6A175E35C201D /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C128EFACEC9941C06DC7A2A5AB1CC64 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8E6E62E7B8701AA4708403E40F0750 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		683349D3F930DD3E8E3BFAD034C42766 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C77FD315738B70BC4BF13B8B95D14AC /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA44636FC3D779C1B2DA529ADA3C31C5 /* AFNetworkActivityIndicatorManager.m */; };
+		6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE1EB2F65F16E70E029A974CE30A8E /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F3565102B3DC62265E0C61FAC03416 /* AFSecurityPolicy.m */; };
+		77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E337E04497BD4754EDCC9F2989E4AA /* AFHTTPSessionManager.m */; };
+		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EFD7FFEBA4D33BB0BEDA05F4967982 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD20FAD3284BB5BF4892C72D19F52C1 /* AFURLSessionManager.m */; };
+		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAEF9F9B63E112C0340A235927A6FA8 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51DA05D9B6C2CB849C4EAD9F722AB8 /* UIActivityIndicatorView+AFNetworking.m */; };
 		945A8B22951EF3E97E07A097C40E56E0 /* Pods-LLPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BF32E8263B2E8580B7069BB01AFE28 /* Pods-LLPay_Example-dummy.m */; };
-		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35434F295E168BEE5F84DC759CF8E320 /* AFNetworkReachabilityManager.m */; };
-		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ED20B63190DD4EAA854D2289357CC518 /* UIProgressView+AFNetworking.m */; };
-		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 933765E7E35E0F09BE584557F264F0F7 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8113CD459BA81111842AD80CC2AFA14B /* AFNetworkReachabilityManager.m */; };
+		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D8F1D34DDBC23F33D01BEBA246A2D9 /* UIProgressView+AFNetworking.m */; };
+		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B217312142FC7F13D2EC787FE2AED7 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A269E15C46F392A5CB6EC2F56E0D3896 /* Pods-LLPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C17CCECE29110F3B11CBB03CA1B1BB /* Pods-LLPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3800BEED1759D643301E916205386 /* AFURLResponseSerialization.m */; };
+		A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E7AB359D3FE82A96F042306B3A1F6 /* AFURLResponseSerialization.m */; };
 		A6EA7EC45971E777B99D940B53D374DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7AECE564DFBD0F6308A3906D8FBD6F /* Foundation.framework */; };
 		A93BD560DD062BA5B515267570761CBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A7F2249E1A12F677C13EE8E6B2DCBA /* Security.framework */; };
-		A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7F30E1131C8935C8211768544A9918 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F7ECBBE95D37138BB50F57FD60CA68 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21061B5BE4F88D5AAB7EC3A9A22599A1 /* UIImageView+AFNetworking.m */; };
+		A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7865183BF1FE525BBD91B7728FD96203 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1000AA41597327B1243866F6C85085 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8677E4981972FD00A388430F9769AD1A /* UIImageView+AFNetworking.m */; };
 		B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DDCF9DFF6A41CB0FE8E59323C01C18 /* SystemConfiguration.framework */; };
 		B58FDA4B74643E094B3AFBF4FDA190B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A90A88F5CCA4CEBDCB2FA63394BC4AD /* QuartzCore.framework */; };
-		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 00305434A1BCC6580CFD487D906EC393 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EA727DCF8E8CA7C412C7B3D7B03D5EA1 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7399A05212D2B34484545A9F90ACF29 /* Pods-LLPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C43E845783E298669712185AB071A /* Pods-LLPay_Tests-dummy.m */; };
-		BF24ED2D9C4098BBE3590DC7542FB116 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CF4655983BA3E01CDCB49FEC80683A /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C6760479879BD885263B93F8CCED231E /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ECAFF352DA8B0B238F7389935C24B9 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A44213E36906B7311D83539BCC2D60 /* UIRefreshControl+AFNetworking.m */; };
-		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B2C70882DBB13C62245EE21F5709B5 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E624B12EC745239B1F72C0FCD7690A5E /* UIWebView+AFNetworking.m */; };
-		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CB344585676FAF70E22902F4B401AB0A /* AFURLRequestSerialization.m */; };
-		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BF80101896040741DD458AE5F726FD /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE471F5FA479C7736AB68EC082AD6DF8 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF187FD2FE572CC97406401626E3706 /* Toast-dummy.m */; };
-		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 413EB8037223E0C68A6D2487BA7F141F /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 93765C15712F4D38F6D242C46DEB90D1 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF24ED2D9C4098BBE3590DC7542FB116 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 13444DEA26C7A5EA1252F73C5C30FD54 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C6760479879BD885263B93F8CCED231E /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5026BB73A306F2A93105AA2B124B127 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A2452BF9953C083F89E48E043EFED30D /* UIRefreshControl+AFNetworking.m */; };
+		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 785A99290B7FF4C1F36537292DAACE41 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB41B1AFAF4C42A60D38D2292340A2 /* UIWebView+AFNetworking.m */; };
+		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 415723B3963B7592833EF2A3DF149B09 /* AFURLRequestSerialization.m */; };
+		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 135B84D52F1EA14F3A9185EDB26E3797 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE471F5FA479C7736AB68EC082AD6DF8 /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0A9247AF69B9684E1CC4063DAFFC30 /* Toast-dummy.m */; };
+		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0CF7A509C0EC5D8A8BAE55CF9273D6 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C10C641E17C55CFFB5EBBC23B0A2443 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5F2B1832DDD0939406AAA5277FAA375 /* Pods-LLPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 288AE51D7A1940265DA2F5DD5E736D18 /* Pods-LLPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -147,98 +147,102 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00305434A1BCC6580CFD487D906EC393 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		003D418D669204B5606F4B94A7798BEF /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		01F1ACBC94DC676EEA1B6925F5A0B633 /* Pods-LLPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		02BF80101896040741DD458AE5F726FD /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		0B37D733B7772105DF74DAF2EDFF5DCF /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		0CF24866C873C014FBA11CCB91D2349A /* ICBCPaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ICBCPaySDK.bundle; path = LLMPay/ICBC/ICBCPaySDK.bundle; sourceTree = "<group>"; };
-		0F7F30E1131C8935C8211768544A9918 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		034350F949745ADA0E33E1606DED872D /* ICBCPaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ICBCPaySDK.bundle; path = LLMPay/ICBC/ICBCPaySDK.bundle; sourceTree = "<group>"; };
+		04B217312142FC7F13D2EC787FE2AED7 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		0D51DA05D9B6C2CB849C4EAD9F722AB8 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		0EAEF9F9B63E112C0340A235927A6FA8 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		10C17CCECE29110F3B11CBB03CA1B1BB /* Pods-LLPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLPay_Example-umbrella.h"; sourceTree = "<group>"; };
-		11581FA635A38F9E76D57150C559EA10 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		12BF32E8263B2E8580B7069BB01AFE28 /* Pods-LLPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLPay_Example-dummy.m"; sourceTree = "<group>"; };
-		15ECAFF352DA8B0B238F7389935C24B9 /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
-		1705521EB5E7389E9C96FC5901EBD014 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		21061B5BE4F88D5AAB7EC3A9A22599A1 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		13444DEA26C7A5EA1252F73C5C30FD54 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		135B84D52F1EA14F3A9185EDB26E3797 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		17671308CE511431E1748F8FA69C2024 /* libLLPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPaySDK.a; path = LLPay/Pay/libLLPaySDK.a; sourceTree = "<group>"; };
+		1814B444A54B0FCDB0F969EACA3ACA15 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		1C10C641E17C55CFFB5EBBC23B0A2443 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		1F1D9671C1D6441790D9AD1CBD9500D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F7DA77A2555E3147EA3C28C42FB8CBD /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		267FE4D94BB03A09E4ADC86476348D66 /* LLPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		284E4C14AC2A1DDE4FF71CE0FB67F585 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		288AE51D7A1940265DA2F5DD5E736D18 /* Pods-LLPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLPay_Tests-umbrella.h"; sourceTree = "<group>"; };
-		294CB2262BAD2915274330CC1B7BE355 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		296C1EA442FC657EEEBECA4A6316BCD6 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		29F84C916D4FB7488412CA71DD3E8B9D /* Toast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.release.xcconfig; sourceTree = "<group>"; };
 		2A90A88F5CCA4CEBDCB2FA63394BC4AD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		2E4B2C7953554876AF1F4371FFB82377 /* walletResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = walletResources.bundle; path = LLPay/walletResources.bundle; sourceTree = "<group>"; };
 		2E9C009BB495155EAD15ED7246DDB07B /* Pods-LLPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		310EBB6A526BB2784290E4C72DA6F33C /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		31B2C70882DBB13C62245EE21F5709B5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		32CF4655983BA3E01CDCB49FEC80683A /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
-		35434F295E168BEE5F84DC759CF8E320 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		33F925D77352FE1DF0E3353F383DF2DB /* LLPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLPay.release.xcconfig; sourceTree = "<group>"; };
 		37DCDEE84C4DD9F7FEDD10F3F43B614B /* Pods-LLPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLPay_Example-frameworks.sh"; sourceTree = "<group>"; };
-		391BEBA3F6DD72A452B1A0E00F8C9375 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		3AF187FD2FE572CC97406401626E3706 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
-		3C8C49C75663C3EEEF2DFF4B0F31F781 /* LLPaySdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = LLPay/Pay/LLPaySdk.h; sourceTree = "<group>"; };
 		3E2FAC7E390097479A12B8258DFB8497 /* Pods_LLPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLPay_Example.framework; path = "Pods-LLPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		408498CE0A5748FA362BAF8C07705763 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		413EB8037223E0C68A6D2487BA7F141F /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		45A058B7D9256CC4BE51642B38E87DA5 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		407B2109D744E909968F4750B71A04D8 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		40F3565102B3DC62265E0C61FAC03416 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		415723B3963B7592833EF2A3DF149B09 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4292B8827118CC6EFBFC5C0E9DD4B895 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		467F2046D5898A3BBB35524DF03B0098 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		4BD20FAD3284BB5BF4892C72D19F52C1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		4BE859CAFD8FAE89A9912FA360E35E2C /* libLLEBankPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLEBankPaySDK.a; path = LLPay/EBank/libLLEBankPaySDK.a; sourceTree = "<group>"; };
+		4C77FD315738B70BC4BF13B8B95D14AC /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		4E1000AA41597327B1243866F6C85085 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		4F0CF7A509C0EC5D8A8BAE55CF9273D6 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		4FE5B4618A993FC047BEE7AEB05E2BCA /* Pods_LLPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLPay_Tests.framework; path = "Pods-LLPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50F7ECBBE95D37138BB50F57FD60CA68 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		510BB602FEED6EA5B6C39F34FB1C194C /* ICBCPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICBCPaySDK.framework; path = LLMPay/ICBC/ICBCPaySDK.framework; sourceTree = "<group>"; };
 		516BEA84A5347104A375E9C83644A94E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		53F9F6BA26A74C4BBCCC7B7D2E82AB64 /* LLPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		545D13B51140B634777AF04E33B0A286 /* Pods-LLPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLPay_Example-Info.plist"; sourceTree = "<group>"; };
+		55DE1EB2F65F16E70E029A974CE30A8E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58413FB1A521E7D15927DD59E4DD80F5 /* Pods-LLPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59D313695A4B3BE0FF5041BD77025DC0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		5DF36A984143003C23BE8954D2B45C98 /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
+		5A58E0700B754E83231DE4B965AA073B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		5DBB41B1AFAF4C42A60D38D2292340A2 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		5E7AECE564DFBD0F6308A3906D8FBD6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5F147AFA335FBC16AB7B2CD3D2B43EA1 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		5F3404C2F5D22D459F1F75F4CAC7C93C /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		66460F0E08C82E9D8DCFDFBF9F5C6234 /* LLPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLPay.xcconfig; sourceTree = "<group>"; };
-		69E32BECEEDDDE888C8771313B8AA0D9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		6A1B5B6D0A58EF98C7E9C328A8052636 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		7A08CF90231589539E4B08485EA4BA7E /* Toast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Info.plist"; sourceTree = "<group>"; };
-		7AB8D6013D0F3A49E8FCB33CF0FAA974 /* libLLEBankPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLEBankPaySDK.a; path = LLPay/EBank/libLLEBankPaySDK.a; sourceTree = "<group>"; };
-		7BA3800BEED1759D643301E916205386 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		608DFD02BA93D616EC2400F8801808C7 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		64F97040BA4B2AFE6AAA63D922FB8715 /* walletResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = walletResources.bundle; path = LLPay/walletResources.bundle; sourceTree = "<group>"; };
+		67A7AD13EC1701F002D1F8D26337A4F2 /* Toast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.debug.xcconfig; sourceTree = "<group>"; };
+		6B0B9DFC43649EFBB12E44CABE9F8F6D /* Toast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Info.plist"; sourceTree = "<group>"; };
+		6B40B519E01242A613EFB2C37CFDFB61 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		785A99290B7FF4C1F36537292DAACE41 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		7865183BF1FE525BBD91B7728FD96203 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		79D8F1D34DDBC23F33D01BEBA246A2D9 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		7E1F58ED0791AE18C1604D343C63C95C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		7E73FBFF9BACEA4854E8891C65CCCE2F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		7EC3D1EEAB4371CEAC3360268BDF3254 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		7F013ADB1D55BF9991CA24D33D66AD1A /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		7F5E7AB359D3FE82A96F042306B3A1F6 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		8062B734758F36D08625F14D487C013B /* LLMPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLMPay.release.xcconfig; sourceTree = "<group>"; };
 		80DDCF9DFF6A41CB0FE8E59323C01C18 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		833751EBE47CF4A4C50A1893AFAEDDCB /* libLLPStdSDKCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPStdSDKCore.a; path = LLPay/Core/libLLPStdSDKCore.a; sourceTree = "<group>"; };
+		8113CD459BA81111842AD80CC2AFA14B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		814BE228E9861FACCA0225E71A1E4B72 /* LLPaySdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = LLPay/Pay/LLPaySdk.h; sourceTree = "<group>"; };
+		8677E4981972FD00A388430F9769AD1A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		8A2C43E845783E298669712185AB071A /* Pods-LLPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLPay_Tests-dummy.m"; sourceTree = "<group>"; };
-		8D928174712E6E86C4389051E26756A1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		8E7EF2D8FBE312C93EED37FF4F753298 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
-		933765E7E35E0F09BE584557F264F0F7 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		93765C15712F4D38F6D242C46DEB90D1 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		98CF9A0C2E0154F4F8297F80473993DC /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		99885120A34ECDCE4654AA39A91D785A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		8A8E6E62E7B8701AA4708403E40F0750 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		8C128EFACEC9941C06DC7A2A5AB1CC64 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
+		91561AE51750C67A4FD1E13E88919DCF /* ICBCPaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ICBCPaySDK.framework; path = LLMPay/ICBC/ICBCPaySDK.framework; sourceTree = "<group>"; };
+		92D3F3C6CF443940DCA80B13933750A5 /* LLMPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLMPay.debug.xcconfig; sourceTree = "<group>"; };
+		9374F020F61A4E63E79EE2A7848208D9 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FAEA8AD6EC5F9852084DB1BD626C54B /* LLPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPay.h; path = LLPay/Core/LLPay.h; sourceTree = "<group>"; };
+		A0994618CDF3DA73262F43D10E717124 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		A0E337E04497BD4754EDCC9F2989E4AA /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		A23C7CB5308A67AAB28DDE33DA59606C /* Pods-LLPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2452BF9953C083F89E48E043EFED30D /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		A2A0F50510D444EE2F8D1E9231B7630A /* Pods-LLPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A721934D6536A6EA110288945AF277EC /* Pods-LLPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AD9254C6CA3E60C6AC805730CED7A42F /* libLLPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPaySDK.a; path = LLPay/Pay/libLLPaySDK.a; sourceTree = "<group>"; };
-		B59778FE19E98D3622CA7DF934A80333 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		A86AE50C7C49BF4A6C95302BE2918234 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AA44636FC3D779C1B2DA529ADA3C31C5 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		B5026BB73A306F2A93105AA2B124B127 /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		B82B605C78CB526AACC595436B74EAF8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9EFD7FFEBA4D33BB0BEDA05F4967982 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		C145912FA546DBCF48AC4CB55F9A71C1 /* Pods-LLPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLPay_Example-resources.sh"; sourceTree = "<group>"; };
 		C680769608F8E0A67FF5A224CAEBB988 /* Pods-LLPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLPay_Example.modulemap"; sourceTree = "<group>"; };
 		C74081523157ED04EB340747AF48FB75 /* Pods-LLPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLPay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C9B37CC6BC5DE3BD63BC2B16991F2D49 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		CB344585676FAF70E22902F4B401AB0A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C79DEFC3372C485619E0C31FB555CECC /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		C95C2B09D3DBC039B5E8413DCAF78AF6 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CE720D9377D7793737A6CBF977871D3A /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		CFE0C658B088862E922AC5EDEE911E1E /* Pods-LLPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLPay_Tests.modulemap"; sourceTree = "<group>"; };
+		D0D375307DF6B9685483875E49223FAB /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		D1532F67423EDF732F6C92B3CDDC22A0 /* Pods-LLPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D29519074F52F13026D87026F935ECF1 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		D372A4BF11FCE588FACDB731232C8D25 /* LLMPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLMPay.xcconfig; sourceTree = "<group>"; };
-		D625956F76FD99ABCE6D927BBC5841FB /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		DB8F80661EA98C8DEC89D09C80F19E60 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		DDBFA5F73C4EAFCC67FC9C1828AE6CD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D431FBA099F037670C152D8DB09826EC /* LLPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPay.h; path = LLPay/Core/LLPay.h; sourceTree = "<group>"; };
+		D8FA56EE03AA09E2E5ABCC5B24088374 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		D99033629040D5D27D575426576187A2 /* LLPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLPay.debug.xcconfig; sourceTree = "<group>"; };
+		DAF90AA519E180112E94DFEFE33C63E9 /* libLLPStdSDKCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPStdSDKCore.a; path = LLPay/Core/libLLPStdSDKCore.a; sourceTree = "<group>"; };
+		DE0A9247AF69B9684E1CC4063DAFFC30 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
 		E0A7F2249E1A12F677C13EE8E6B2DCBA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		E11FC98D13B5148719EDC4A5E771F9D7 /* LLEBankPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLEBankPaySDK.h; path = LLPay/EBank/LLEBankPaySDK.h; sourceTree = "<group>"; };
-		E55C22EFBFE8FEF489DCFA41739DCCCA /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		E624B12EC745239B1F72C0FCD7690A5E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		E8310A5ECCB442542FD4770ADEC3A723 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		ED20B63190DD4EAA854D2289357CC518 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		EF35A55D2301A9CABBBEC7932B03766D /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		F6A44213E36906B7311D83539BCC2D60 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		F9A1B20BED9ADC9DA91A5450B619CF86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EA727DCF8E8CA7C412C7B3D7B03D5EA1 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		EE3E6AF5B32EC93B5A8F56C699009739 /* LLEBankPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLEBankPaySDK.h; path = LLPay/EBank/LLEBankPaySDK.h; sourceTree = "<group>"; };
 		FBEBB2DE297F2E4B60EA5BEAB8E719B3 /* Pods-LLPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLPay_Tests-Info.plist"; sourceTree = "<group>"; };
-		FC4F3E4F79979C7611DD7C5FC80A5962 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,123 +286,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02752F5C791CB5EF7207705B21F73F32 /* Support Files */ = {
+		071C1D1CEC5744A28E9A1E2028C087D3 /* LLMPay */ = {
 			isa = PBXGroup;
 			children = (
-				D372A4BF11FCE588FACDB731232C8D25 /* LLMPay.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LLMPay";
-			sourceTree = "<group>";
-		};
-		07DA307ADC7631E81EA9DA9DA2561EDD /* Toast */ = {
-			isa = PBXGroup;
-			children = (
-				45A058B7D9256CC4BE51642B38E87DA5 /* Toast.h */,
-				8E7EF2D8FBE312C93EED37FF4F753298 /* UIView+Toast.h */,
-				32CF4655983BA3E01CDCB49FEC80683A /* UIView+Toast.m */,
-				BEB76D762EEAA80C34FD7B3AD4E3F0C1 /* Support Files */,
-			);
-			name = Toast;
-			path = Toast;
-			sourceTree = "<group>";
-		};
-		12BE2E931A2CEC814EBB11610E67E0E7 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				7EC3D1EEAB4371CEAC3360268BDF3254 /* AFAutoPurgingImageCache.h */,
-				D29519074F52F13026D87026F935ECF1 /* AFAutoPurgingImageCache.m */,
-				02BF80101896040741DD458AE5F726FD /* AFImageDownloader.h */,
-				1705521EB5E7389E9C96FC5901EBD014 /* AFImageDownloader.m */,
-				0B37D733B7772105DF74DAF2EDFF5DCF /* AFNetworkActivityIndicatorManager.h */,
-				5F147AFA335FBC16AB7B2CD3D2B43EA1 /* AFNetworkActivityIndicatorManager.m */,
-				00305434A1BCC6580CFD487D906EC393 /* UIActivityIndicatorView+AFNetworking.h */,
-				99885120A34ECDCE4654AA39A91D785A /* UIActivityIndicatorView+AFNetworking.m */,
-				50F7ECBBE95D37138BB50F57FD60CA68 /* UIButton+AFNetworking.h */,
-				310EBB6A526BB2784290E4C72DA6F33C /* UIButton+AFNetworking.m */,
-				E8310A5ECCB442542FD4770ADEC3A723 /* UIImage+AFNetworking.h */,
-				8D928174712E6E86C4389051E26756A1 /* UIImageView+AFNetworking.h */,
-				21061B5BE4F88D5AAB7EC3A9A22599A1 /* UIImageView+AFNetworking.m */,
-				933765E7E35E0F09BE584557F264F0F7 /* UIKit+AFNetworking.h */,
-				003D418D669204B5606F4B94A7798BEF /* UIProgressView+AFNetworking.h */,
-				ED20B63190DD4EAA854D2289357CC518 /* UIProgressView+AFNetworking.m */,
-				391BEBA3F6DD72A452B1A0E00F8C9375 /* UIRefreshControl+AFNetworking.h */,
-				F6A44213E36906B7311D83539BCC2D60 /* UIRefreshControl+AFNetworking.m */,
-				93765C15712F4D38F6D242C46DEB90D1 /* UIWebView+AFNetworking.h */,
-				E624B12EC745239B1F72C0FCD7690A5E /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		20B934376E09595209525657AA16BA65 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7AB8D6013D0F3A49E8FCB33CF0FAA974 /* libLLEBankPaySDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		42937199A0BF7F887CAAEDB0FE643E9B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				874A485366492424AE5369B78CCAA78D /* LLPay */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		43802E0A82B42CA988C6470F0897F9E6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0CF24866C873C014FBA11CCB91D2349A /* ICBCPaySDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		4584C2BC07BA329D2E2FF075F2E97FBE /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				413EB8037223E0C68A6D2487BA7F141F /* AFCompatibilityMacros.h */,
-				59D313695A4B3BE0FF5041BD77025DC0 /* AFHTTPSessionManager.h */,
-				C9B37CC6BC5DE3BD63BC2B16991F2D49 /* AFHTTPSessionManager.m */,
-				31B2C70882DBB13C62245EE21F5709B5 /* AFURLSessionManager.h */,
-				294CB2262BAD2915274330CC1B7BE355 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		46506EF2ABD522FF76A57CB0495587F8 /* LLMPay */ = {
-			isa = PBXGroup;
-			children = (
-				963FE3473E57CD4BD3103D8D3E340AE3 /* ICBC */,
-				02752F5C791CB5EF7207705B21F73F32 /* Support Files */,
+				DB317E4C118798C088632CF4BE466CEB /* ICBC */,
+				A1D9484735A22C5FD5BEA2A3295DF60F /* Support Files */,
 			);
 			name = LLMPay;
 			path = LLMPay;
 			sourceTree = "<group>";
 		};
-		5267867863F5E3329E8ECAC6B06F6C82 /* Support Files */ = {
+		10DF7EC89709EED05D6DF16C550F0F5E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				66460F0E08C82E9D8DCFDFBF9F5C6234 /* LLPay.xcconfig */,
+				D0D375307DF6B9685483875E49223FAB /* AFNetworking.modulemap */,
+				CE720D9377D7793737A6CBF977871D3A /* AFNetworking-dummy.m */,
+				A0994618CDF3DA73262F43D10E717124 /* AFNetworking-Info.plist */,
+				D8FA56EE03AA09E2E5ABCC5B24088374 /* AFNetworking-prefix.pch */,
+				8A8E6E62E7B8701AA4708403E40F0750 /* AFNetworking-umbrella.h */,
+				284E4C14AC2A1DDE4FF71CE0FB67F585 /* AFNetworking.debug.xcconfig */,
+				9374F020F61A4E63E79EE2A7848208D9 /* AFNetworking.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LLPay";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		540E345B70A935C03CA39663BE777827 /* Frameworks */ = {
+		10EC1109999AA3217C48057AD09E0D1A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				AD9254C6CA3E60C6AC805730CED7A42F /* libLLPaySDK.a */,
+				0EAEF9F9B63E112C0340A235927A6FA8 /* AFAutoPurgingImageCache.h */,
+				296C1EA442FC657EEEBECA4A6316BCD6 /* AFAutoPurgingImageCache.m */,
+				135B84D52F1EA14F3A9185EDB26E3797 /* AFImageDownloader.h */,
+				4292B8827118CC6EFBFC5C0E9DD4B895 /* AFImageDownloader.m */,
+				5A58E0700B754E83231DE4B965AA073B /* AFNetworkActivityIndicatorManager.h */,
+				AA44636FC3D779C1B2DA529ADA3C31C5 /* AFNetworkActivityIndicatorManager.m */,
+				EA727DCF8E8CA7C412C7B3D7B03D5EA1 /* UIActivityIndicatorView+AFNetworking.h */,
+				0D51DA05D9B6C2CB849C4EAD9F722AB8 /* UIActivityIndicatorView+AFNetworking.m */,
+				4E1000AA41597327B1243866F6C85085 /* UIButton+AFNetworking.h */,
+				7F013ADB1D55BF9991CA24D33D66AD1A /* UIButton+AFNetworking.m */,
+				1F7DA77A2555E3147EA3C28C42FB8CBD /* UIImage+AFNetworking.h */,
+				55DE1EB2F65F16E70E029A974CE30A8E /* UIImageView+AFNetworking.h */,
+				8677E4981972FD00A388430F9769AD1A /* UIImageView+AFNetworking.m */,
+				04B217312142FC7F13D2EC787FE2AED7 /* UIKit+AFNetworking.h */,
+				608DFD02BA93D616EC2400F8801808C7 /* UIProgressView+AFNetworking.h */,
+				79D8F1D34DDBC23F33D01BEBA246A2D9 /* UIProgressView+AFNetworking.m */,
+				407B2109D744E909968F4750B71A04D8 /* UIRefreshControl+AFNetworking.h */,
+				A2452BF9953C083F89E48E043EFED30D /* UIRefreshControl+AFNetworking.m */,
+				1C10C641E17C55CFFB5EBBC23B0A2443 /* UIWebView+AFNetworking.h */,
+				5DBB41B1AFAF4C42A60D38D2292340A2 /* UIWebView+AFNetworking.m */,
 			);
-			name = Frameworks;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		26E1DD56B11F3B9A55761D440206B21D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F1D9671C1D6441790D9AD1CBD9500D0 /* LICENSE */,
+				267FE4D94BB03A09E4ADC86476348D66 /* LLPay.podspec */,
+				B82B605C78CB526AACC595436B74EAF8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3AFDD8C69AC41342E83C8D6CB8AE1D9A /* LLPay */ = {
+			isa = PBXGroup;
+			children = (
+				8C76187F85B4DBAE404AB938B6D2F9A0 /* Core */,
+				BE4DDD06E8A85D1C0FB1FC14655B7914 /* EBank */,
+				A9CA8AD4BE3D7D742EB9C29F2691A26E /* Pay */,
+				26E1DD56B11F3B9A55761D440206B21D /* Pod */,
+				5F5060696E12FB75F05D406D0110DDB6 /* Support Files */,
+			);
+			name = LLPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3CF669559E471303E342D6F9BA5049CF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7865183BF1FE525BBD91B7728FD96203 /* AFNetworkReachabilityManager.h */,
+				8113CD459BA81111842AD80CC2AFA14B /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		42937199A0BF7F887CAAEDB0FE643E9B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AFDD8C69AC41342E83C8D6CB8AE1D9A /* LLPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		50E42B16D485EF2790D56AE0F4BA5A84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				034350F949745ADA0E33E1606DED872D /* ICBCPaySDK.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		54E3827E35909BE3C4872B7820428817 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5AD692FB23DC2D4EAAB9697BE35E2424 /* AFNetworking */,
-				46506EF2ABD522FF76A57CB0495587F8 /* LLMPay */,
-				07DA307ADC7631E81EA9DA9DA2561EDD /* Toast */,
+				A162F4E4EE6778F8E2577DDFA3EB1A80 /* AFNetworking */,
+				071C1D1CEC5744A28E9A1E2028C087D3 /* LLMPay */,
+				600282281F552C6833420A878F69F222 /* Toast */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -414,101 +407,74 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59587917E3B69A7E18F1331C2D3BD4DD /* Core */ = {
+		5F5060696E12FB75F05D406D0110DDB6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FAEA8AD6EC5F9852084DB1BD626C54B /* LLPay.h */,
-				96A4F27745D25E5DC09D7093E0162F71 /* Frameworks */,
+				D99033629040D5D27D575426576187A2 /* LLPay.debug.xcconfig */,
+				33F925D77352FE1DF0E3353F383DF2DB /* LLPay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LLPay";
+			sourceTree = "<group>";
+		};
+		600282281F552C6833420A878F69F222 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				8C128EFACEC9941C06DC7A2A5AB1CC64 /* Toast.h */,
+				4C77FD315738B70BC4BF13B8B95D14AC /* UIView+Toast.h */,
+				13444DEA26C7A5EA1252F73C5C30FD54 /* UIView+Toast.m */,
+				920C33232EACE367951A09F601A093E7 /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		683CB0EACF00850950A475A94FAE4B61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64F97040BA4B2AFE6AAA63D922FB8715 /* walletResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D47573F2C107BFE96D2D2AF3F095CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17671308CE511431E1748F8FA69C2024 /* libLLPaySDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80745396F4A3F35CB7E5A57D34C95807 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91561AE51750C67A4FD1E13E88919DCF /* ICBCPaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C76187F85B4DBAE404AB938B6D2F9A0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D431FBA099F037670C152D8DB09826EC /* LLPay.h */,
+				A488F764F87921F92A3EC99154AC08AC /* Frameworks */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5AD692FB23DC2D4EAAB9697BE35E2424 /* AFNetworking */ = {
+		920C33232EACE367951A09F601A093E7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				408498CE0A5748FA362BAF8C07705763 /* AFNetworking.h */,
-				4584C2BC07BA329D2E2FF075F2E97FBE /* NSURLSession */,
-				F7E06B2AB4C03C969893F7F19B627312 /* Reachability */,
-				BF069AC7F8EABD291233FA17E86E8888 /* Security */,
-				AA4CDBA49589589B927A33065CD650FB /* Serialization */,
-				EAC96EBB8562F9380EFDE7F34903763A /* Support Files */,
-				12BE2E931A2CEC814EBB11610E67E0E7 /* UIKit */,
+				1814B444A54B0FCDB0F969EACA3ACA15 /* Toast.modulemap */,
+				DE0A9247AF69B9684E1CC4063DAFFC30 /* Toast-dummy.m */,
+				6B0B9DFC43649EFBB12E44CABE9F8F6D /* Toast-Info.plist */,
+				C79DEFC3372C485619E0C31FB555CECC /* Toast-prefix.pch */,
+				B5026BB73A306F2A93105AA2B124B127 /* Toast-umbrella.h */,
+				67A7AD13EC1701F002D1F8D26337A4F2 /* Toast.debug.xcconfig */,
+				29F84C916D4FB7488412CA71DD3E8B9D /* Toast.release.xcconfig */,
 			);
-			name = AFNetworking;
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		6060C0104FDB92D800285FA592578ADE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2E4B2C7953554876AF1F4371FFB82377 /* walletResources.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7039EB2C08CBDAF4DE0EA3D0B24C1568 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DDBFA5F73C4EAFCC67FC9C1828AE6CD8 /* LICENSE */,
-				53F9F6BA26A74C4BBCCC7B7D2E82AB64 /* LLPay.podspec */,
-				F9A1B20BED9ADC9DA91A5450B619CF86 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		745053D56B86DD972FC219E1BB5ED6E0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		79BCE8F273C2C505D126B016CA00AC89 /* EBank */ = {
-			isa = PBXGroup;
-			children = (
-				E11FC98D13B5148719EDC4A5E771F9D7 /* LLEBankPaySDK.h */,
-				20B934376E09595209525657AA16BA65 /* Frameworks */,
-				6060C0104FDB92D800285FA592578ADE /* Resources */,
-			);
-			name = EBank;
-			sourceTree = "<group>";
-		};
-		874A485366492424AE5369B78CCAA78D /* LLPay */ = {
-			isa = PBXGroup;
-			children = (
-				59587917E3B69A7E18F1331C2D3BD4DD /* Core */,
-				79BCE8F273C2C505D126B016CA00AC89 /* EBank */,
-				CF669F3A22D5D3EAD791559B5472C73B /* Pay */,
-				7039EB2C08CBDAF4DE0EA3D0B24C1568 /* Pod */,
-				5267867863F5E3329E8ECAC6B06F6C82 /* Support Files */,
-			);
-			name = LLPay;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8C773C5E488DACDEC8F3F58C32F26063 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				510BB602FEED6EA5B6C39F34FB1C194C /* ICBCPaySDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		963FE3473E57CD4BD3103D8D3E340AE3 /* ICBC */ = {
-			isa = PBXGroup;
-			children = (
-				8C773C5E488DACDEC8F3F58C32F26063 /* Frameworks */,
-				43802E0A82B42CA988C6470F0897F9E6 /* Resources */,
-			);
-			name = ICBC;
-			sourceTree = "<group>";
-		};
-		96A4F27745D25E5DC09D7093E0162F71 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				833751EBE47CF4A4C50A1893AFAEDDCB /* libLLPStdSDKCore.a */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
 			sourceTree = "<group>";
 		};
 		9EB8E5D741F2E6A76B63E8063C644E85 /* Pods-LLPay_Tests */ = {
@@ -527,6 +493,38 @@
 			path = "Target Support Files/Pods-LLPay_Tests";
 			sourceTree = "<group>";
 		};
+		A0E52340EBB21300F820046266B72D8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A162F4E4EE6778F8E2577DDFA3EB1A80 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B9EFD7FFEBA4D33BB0BEDA05F4967982 /* AFNetworking.h */,
+				B3348DF70AFB70F0E4B6310A1FF2496F /* NSURLSession */,
+				3CF669559E471303E342D6F9BA5049CF /* Reachability */,
+				C29479F42590094B8977494F3947E147 /* Security */,
+				C805F971689F8859D1DB96718CD177A1 /* Serialization */,
+				10DF7EC89709EED05D6DF16C550F0F5E /* Support Files */,
+				10EC1109999AA3217C48057AD09E0D1A /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A1D9484735A22C5FD5BEA2A3295DF60F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D3F3C6CF443940DCA80B13933750A5 /* LLMPay.debug.xcconfig */,
+				8062B734758F36D08625F14D487C013B /* LLMPay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LLMPay";
+			sourceTree = "<group>";
+		};
 		A380D79DCE34269F949DEA74871D1BDB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +536,14 @@
 				80DDCF9DFF6A41CB0FE8E59323C01C18 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A488F764F87921F92A3EC99154AC08AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAF90AA519E180112E94DFEFE33C63E9 /* libLLPStdSDKCore.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A9A54F23A9A4B80703187221B3D44D20 /* Pods-LLPay_Example */ = {
@@ -558,38 +564,44 @@
 			path = "Target Support Files/Pods-LLPay_Example";
 			sourceTree = "<group>";
 		};
-		AA4CDBA49589589B927A33065CD650FB /* Serialization */ = {
+		A9CA8AD4BE3D7D742EB9C29F2691A26E /* Pay */ = {
 			isa = PBXGroup;
 			children = (
-				69E32BECEEDDDE888C8771313B8AA0D9 /* AFURLRequestSerialization.h */,
-				CB344585676FAF70E22902F4B401AB0A /* AFURLRequestSerialization.m */,
-				DB8F80661EA98C8DEC89D09C80F19E60 /* AFURLResponseSerialization.h */,
-				7BA3800BEED1759D643301E916205386 /* AFURLResponseSerialization.m */,
+				814BE228E9861FACCA0225E71A1E4B72 /* LLPaySdk.h */,
+				6D47573F2C107BFE96D2D2AF3F095CF0 /* Frameworks */,
+				A0E52340EBB21300F820046266B72D8D /* Resources */,
 			);
-			name = Serialization;
+			name = Pay;
 			sourceTree = "<group>";
 		};
-		BEB76D762EEAA80C34FD7B3AD4E3F0C1 /* Support Files */ = {
+		B3348DF70AFB70F0E4B6310A1FF2496F /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				5DF36A984143003C23BE8954D2B45C98 /* Toast.modulemap */,
-				FC4F3E4F79979C7611DD7C5FC80A5962 /* Toast.xcconfig */,
-				3AF187FD2FE572CC97406401626E3706 /* Toast-dummy.m */,
-				7A08CF90231589539E4B08485EA4BA7E /* Toast-Info.plist */,
-				B59778FE19E98D3622CA7DF934A80333 /* Toast-prefix.pch */,
-				15ECAFF352DA8B0B238F7389935C24B9 /* Toast-umbrella.h */,
+				4F0CF7A509C0EC5D8A8BAE55CF9273D6 /* AFCompatibilityMacros.h */,
+				C95C2B09D3DBC039B5E8413DCAF78AF6 /* AFHTTPSessionManager.h */,
+				A0E337E04497BD4754EDCC9F2989E4AA /* AFHTTPSessionManager.m */,
+				785A99290B7FF4C1F36537292DAACE41 /* AFURLSessionManager.h */,
+				4BD20FAD3284BB5BF4892C72D19F52C1 /* AFURLSessionManager.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast";
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		BF069AC7F8EABD291233FA17E86E8888 /* Security */ = {
+		B390C2BDEF463B18A2ABBC53ACBAD88A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A1B5B6D0A58EF98C7E9C328A8052636 /* AFSecurityPolicy.h */,
-				7E73FBFF9BACEA4854E8891C65CCCE2F /* AFSecurityPolicy.m */,
+				4BE859CAFD8FAE89A9912FA360E35E2C /* libLLEBankPaySDK.a */,
 			);
-			name = Security;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE4DDD06E8A85D1C0FB1FC14655B7914 /* EBank */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E6AF5B32EC93B5A8F56C699009739 /* LLEBankPaySDK.h */,
+				B390C2BDEF463B18A2ABBC53ACBAD88A /* Frameworks */,
+				683CB0EACF00850950A475A94FAE4B61 /* Resources */,
+			);
+			name = EBank;
 			sourceTree = "<group>";
 		};
 		C03F820655EABE203D91D7E97C59D4E1 /* Targets Support Files */ = {
@@ -599,6 +611,26 @@
 				9EB8E5D741F2E6A76B63E8063C644E85 /* Pods-LLPay_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C29479F42590094B8977494F3947E147 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				467F2046D5898A3BBB35524DF03B0098 /* AFSecurityPolicy.h */,
+				40F3565102B3DC62265E0C61FAC03416 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		C805F971689F8859D1DB96718CD177A1 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				A86AE50C7C49BF4A6C95302BE2918234 /* AFURLRequestSerialization.h */,
+				415723B3963B7592833EF2A3DF149B09 /* AFURLRequestSerialization.m */,
+				6B40B519E01242A613EFB2C37CFDFB61 /* AFURLResponseSerialization.h */,
+				7F5E7AB359D3FE82A96F042306B3A1F6 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -613,16 +645,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		CF669F3A22D5D3EAD791559B5472C73B /* Pay */ = {
-			isa = PBXGroup;
-			children = (
-				3C8C49C75663C3EEEF2DFF4B0F31F781 /* LLPaySdk.h */,
-				540E345B70A935C03CA39663BE777827 /* Frameworks */,
-				745053D56B86DD972FC219E1BB5ED6E0 /* Resources */,
-			);
-			name = Pay;
-			sourceTree = "<group>";
-		};
 		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -631,27 +653,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAC96EBB8562F9380EFDE7F34903763A /* Support Files */ = {
+		DB317E4C118798C088632CF4BE466CEB /* ICBC */ = {
 			isa = PBXGroup;
 			children = (
-				5F3404C2F5D22D459F1F75F4CAC7C93C /* AFNetworking.modulemap */,
-				EF35A55D2301A9CABBBEC7932B03766D /* AFNetworking.xcconfig */,
-				98CF9A0C2E0154F4F8297F80473993DC /* AFNetworking-dummy.m */,
-				E55C22EFBFE8FEF489DCFA41739DCCCA /* AFNetworking-Info.plist */,
-				D625956F76FD99ABCE6D927BBC5841FB /* AFNetworking-prefix.pch */,
-				11581FA635A38F9E76D57150C559EA10 /* AFNetworking-umbrella.h */,
+				80745396F4A3F35CB7E5A57D34C95807 /* Frameworks */,
+				50E42B16D485EF2790D56AE0F4BA5A84 /* Resources */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		F7E06B2AB4C03C969893F7F19B627312 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				0F7F30E1131C8935C8211768544A9918 /* AFNetworkReachabilityManager.h */,
-				35434F295E168BEE5F84DC759CF8E320 /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
+			name = ICBC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -805,6 +813,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 575386E141A83045AC2C151DBB87D6E5 /* Products */;
@@ -955,18 +964,66 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		23CA727232057BE84DFD238A9949FE21 /* Debug */ = {
+		093BF7C62922298B0DEEA4DCD41A94BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66460F0E08C82E9D8DCFDFBF9F5C6234 /* LLPay.xcconfig */;
+			baseConfigurationReference = 284E4C14AC2A1DDE4FF71CE0FB67F585 /* AFNetworking.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0BA37392707812E5E20195B076886642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F84C916D4FB7488412CA71DD3E8B9D /* Toast.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1028,50 +1085,6 @@
 			};
 			name = Release;
 		};
-		4FC799A8320742EE4B74A996DA1B87FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D372A4BF11FCE588FACDB731232C8D25 /* LLMPay.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		54AB2788E5EA72EED67A06CB76DA2699 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF35A55D2301A9CABBBEC7932B03766D /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5A830742FB29470785EBAB710F05D583 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01F1ACBC94DC676EEA1B6925F5A0B633 /* Pods-LLPay_Tests.release.xcconfig */;
@@ -1103,6 +1116,20 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BDC1BE1F0E421F151E0EEE24BB8B957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F925D77352FE1DF0E3353F383DF2DB /* LLPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1236,70 +1263,35 @@
 			};
 			name = Debug;
 		};
-		7F6416B30075BCB6F5DB9A2BB9B0747D /* Release */ = {
+		8ACD7E18D70E7C37E43B0200C1CF050D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC4F3E4F79979C7611DD7C5FC80A5962 /* Toast.xcconfig */;
+			baseConfigurationReference = 92D3F3C6CF443940DCA80B13933750A5 /* LLMPay.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				PRODUCT_MODULE_NAME = Toast;
-				PRODUCT_NAME = Toast;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A8FE8F08ADF4F2878AEF975221EA1E96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC4F3E4F79979C7611DD7C5FC80A5962 /* Toast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
-				PRODUCT_MODULE_NAME = Toast;
-				PRODUCT_NAME = Toast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DBC3C3E39F0A33AA1F912AEE6BB13D5D /* Release */ = {
+		CA953DB8D22E4BBF3218B09412D24315 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF35A55D2301A9CABBBEC7932B03766D /* AFNetworking.xcconfig */;
+			baseConfigurationReference = D99033629040D5D27D575426576187A2 /* LLPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D386235F8DE8E7DFA6CD77269A39C5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9374F020F61A4E63E79EE2A7848208D9 /* AFNetworking.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1327,6 +1319,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		DA6CC5385BC1AC31F438C505BD34A924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A7AD13EC1701F002D1F8D26337A4F2 /* Toast.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		E4D91C6FCCB4E4B24B96ECD6B2FECBB6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1362,22 +1384,9 @@
 			};
 			name = Release;
 		};
-		EB7C75B55B0217C1703B7CE14ED3EE22 /* Debug */ = {
+		E96CB6C835FAAAA0E60D6D628D1795F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D372A4BF11FCE588FACDB731232C8D25 /* LLMPay.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FFAA522F82003F0EDE57B79BFA45B682 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66460F0E08C82E9D8DCFDFBF9F5C6234 /* LLPay.xcconfig */;
+			baseConfigurationReference = 8062B734758F36D08625F14D487C013B /* LLMPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1395,8 +1404,8 @@
 		12815FF15A89EEF94D979BB9F39EA14F /* Build configuration list for PBXNativeTarget "Toast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8FE8F08ADF4F2878AEF975221EA1E96 /* Debug */,
-				7F6416B30075BCB6F5DB9A2BB9B0747D /* Release */,
+				DA6CC5385BC1AC31F438C505BD34A924 /* Debug */,
+				0BA37392707812E5E20195B076886642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1404,8 +1413,8 @@
 		41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54AB2788E5EA72EED67A06CB76DA2699 /* Debug */,
-				DBC3C3E39F0A33AA1F912AEE6BB13D5D /* Release */,
+				093BF7C62922298B0DEEA4DCD41A94BB /* Debug */,
+				D386235F8DE8E7DFA6CD77269A39C5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1422,8 +1431,8 @@
 		5AB976DC02DC78FAB0C850E549E8DC11 /* Build configuration list for PBXAggregateTarget "LLPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23CA727232057BE84DFD238A9949FE21 /* Debug */,
-				FFAA522F82003F0EDE57B79BFA45B682 /* Release */,
+				CA953DB8D22E4BBF3218B09412D24315 /* Debug */,
+				5BDC1BE1F0E421F151E0EEE24BB8B957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1449,8 +1458,8 @@
 		DA71C1BD1291A144DCBF344286EE6DED /* Build configuration list for PBXAggregateTarget "LLMPay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB7C75B55B0217C1703B7CE14ED3EE22 /* Debug */,
-				4FC799A8320742EE4B74A996DA1B87FB /* Release */,
+				8ACD7E18D70E7C37E43B0200C1CF050D /* Debug */,
+				E96CB6C835FAAAA0E60D6D628D1795F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

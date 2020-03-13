@@ -17,13 +17,13 @@ PODS:
   - LLMPay/ICBC (4.0.5):
     - AFNetworking (~> 3.0)
     - Toast
-  - LLPay (2.7.9):
-    - LLPay/Pay (= 2.7.9)
-  - LLPay/Core (2.7.9)
-  - LLPay/EBank (2.7.9):
+  - LLPay (2.8.0):
+    - LLPay/Pay (= 2.8.0)
+  - LLPay/Core (2.8.0)
+  - LLPay/EBank (2.8.0):
     - LLMPay/ICBC
     - LLPay/Core
-  - LLPay/Pay (2.7.9):
+  - LLPay/Pay (2.8.0):
     - LLPay/Core
   - Toast (4.0.0)
 
@@ -32,7 +32,7 @@ DEPENDENCIES:
   - LLPay/EBank (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - LLMPay
     - Toast
@@ -44,9 +44,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   LLMPay: 2a3364fb6a22ae41821ec1b6d28ccc4ef0fbbfe9
-  LLPay: cfa518d6c00c70be70dbbad957ab22067910124b
+  LLPay: 260809730ffd98163b32500b8d9d6041a8c8b016
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
 PODFILE CHECKSUM: 345d202568a4dfa171723c9834a66df703d664fc
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.9.0

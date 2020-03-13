@@ -120,12 +120,12 @@
 |-----|-----|
 |  LE0000  |  用户操作完成，请通过轮询查询方式获取订单支付结果  |
 |	LE0001	|   用户中途取消支付操作|
-|  LE0002  |  交易在WAP中处理完成  |  
-|  LE0003  |  交易在APP中处理完成  |  
-|  LE0011  |  交易异常，该SDK并未支持此手机银行  |  
+|  LE0002  |  交易在WAP中处理完成  |
+|  LE0003  |  交易在APP中处理完成  |
+|  LE0011  |  交易异常，该SDK并未支持此手机银行  |
 |  LE0012  |  商户请求参数校验错误[%s]  |
-|  LE1022  |  该银行渠道暂不支持！  |  
-|  LE1001  |  支付处理失败! |  
+|  LE1022  |  该银行渠道暂不支持！  |
+|  LE1001  |  支付处理失败! |
 
 **请注意，支付完成后必须通过订单查询接口查询订单结果，LE1001支付处理失败也可能是因为没有导入银行的SDK**
 
@@ -138,5 +138,5 @@ LLPayiOSDev, iosdev@lianlianpay.com
 
 ## License
 
-© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
+© 2003-2020 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
 
